@@ -1,0 +1,72 @@
+.intro {
+  background: var(--off-white);
+  color: var(--charcoal);
+  padding: var(--space-6) var(--space-4);
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: var(--space-5);
+  align-items: start;
+}
+
+.heading {
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 46ch;
+}
+
+.pillars {
+  max-width: 1200px;
+  margin: var(--space-5) auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+  border-top: 1px solid rgba(23, 24, 26, 0.12);
+  padding-top: var(--space-4);
+}
+
+.pillar p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  max-width: 46ch;
+  margin: 0;
+}
+
+.pillarLabel {
+  color: var(--teal);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 500;
+  margin: 0 0 var(--space-1);
+}
+
+@media (max-width: 900px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+
+  .copy {
+    max-width: none;
+  }
+
+  .pillars {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+}

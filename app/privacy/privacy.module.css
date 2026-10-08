@@ -1,0 +1,9 @@
+.page { max-width: 1000px; margin: 0 auto; padding: calc(var(--header-height) + 72px) var(--page-pad) 88px; }
+.eyebrow { color: var(--teal-dark); font-size: .75rem; font-weight: 700; letter-spacing: .1em; }
+.page h1 { margin: 24px 0; font-size: var(--type-page); line-height: var(--heading-leading); }
+.page > p { font-size: 1.1rem; }
+.page section { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--line-dark); }
+.page h2 { font-size: 1.6rem; }
+.page p { max-width: 70ch; line-height: 1.8; }
+.page a { text-underline-offset: 4px; overflow-wrap: anywhere; }
+.page > a { display: inline-flex; align-items: center; min-height: 44px; margin-top: 24px; }

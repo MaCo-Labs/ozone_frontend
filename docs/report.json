@@ -1,0 +1,3073 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "route": "/",
+      "status": 200,
+      "headings": [
+        {
+          "text": "We build spaces that work. We shape spaces built to last.We build spacestha",
+          "size": "33.1757px"
+        },
+        {
+          "text": "Proof, not promises.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Brands and places people know.",
+          "size": "28.8px"
+        },
+        {
+          "text": "One team.Every critical layer.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Interior Fit-Out",
+          "size": "21.6px"
+        },
+        {
+          "text": "Contracting & Construction",
+          "size": "21.6px"
+        },
+        {
+          "text": "MEP Services",
+          "size": "21.6px"
+        },
+        {
+          "text": "Engineering Consultancy & Design",
+          "size": "21.6px"
+        },
+        {
+          "text": "From idea to operational space.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Idea",
+          "size": "21.6px"
+        },
+        {
+          "text": "Design",
+          "size": "21.6px"
+        },
+        {
+          "text": "Build",
+          "size": "21.6px"
+        },
+        {
+          "text": "Space",
+          "size": "21.6px"
+        },
+        {
+          "text": "Built to perform. Finished to last.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Bring us the space.We’ll build the certainty.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out & Contracting Company in Doha, Qatar",
+      "description": "OZONE delivers interior fit-out, construction, MEP and engineering services in Doha, Qatar. Explore our transit, healthcare, corporate and retail portfolio.",
+      "canonical": "https://www.ozonefitout.com/",
+      "ogUrl": "https://www.ozonefitout.com",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/about",
+      "status": 200,
+      "headings": [
+        {
+          "text": "We don’t just build spaces.",
+          "size": "38.4px"
+        },
+        {
+          "text": "The people behind the space.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Exceptional value. Clear responsibility.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Understand",
+          "size": "21.6px"
+        },
+        {
+          "text": "Plan",
+          "size": "21.6px"
+        },
+        {
+          "text": "Design",
+          "size": "21.6px"
+        },
+        {
+          "text": "Engineer",
+          "size": "21.6px"
+        },
+        {
+          "text": "Build",
+          "size": "21.6px"
+        },
+        {
+          "text": "Deliver",
+          "size": "21.6px"
+        },
+        {
+          "text": "Let the work tell the story.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "About OZONE | Fit-Out & Contracting in Qatar | OZONE",
+      "description": "Meet OZONE Fitout & Contracting W.L.L. Explore the people, principles and coordinated approach behind our interior and construction delivery in Qatar.",
+      "canonical": "https://www.ozonefitout.com/about",
+      "ogUrl": "https://www.ozonefitout.com/about",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/services",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Our capabilities.",
+          "size": "38.4px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out, Construction, MEP & Engineering Services | OZONE",
+      "description": "Explore OZONE's four coordinated disciplines in Qatar: interior fit-out, contracting and construction, MEP services, and engineering consultancy and design.",
+      "canonical": "https://www.ozonefitout.com/services",
+      "ogUrl": "https://www.ozonefitout.com/services",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/services/interior-fit-out",
+      "status": 200,
+      "headings": [
+        {
+          "text": "From empty space to experience.",
+          "size": "38.4px"
+        },
+        {
+          "text": "One space. Every visible layer.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Make the space work.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Interior Fit-Out Services in Doha, Qatar | OZONE",
+      "description": "Office, retail, hospitality and residential interior fit-out in Qatar. OZONE coordinates joinery, ceilings, partitions, flooring, finishes and specialist trades.",
+      "canonical": "https://www.ozonefitout.com/services/interior-fit-out",
+      "ogUrl": "https://www.ozonefitout.com/services/interior-fit-out",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/services/contracting-construction",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Building the framework.",
+          "size": "38.4px"
+        },
+        {
+          "text": "General contracting",
+          "size": "21.6px"
+        },
+        {
+          "text": "Design and build solutions",
+          "size": "21.6px"
+        },
+        {
+          "text": "Civil and structural construction",
+          "size": "21.6px"
+        },
+        {
+          "text": "Commercial and residential developments",
+          "size": "21.6px"
+        },
+        {
+          "text": "Building renovation and refurbishment",
+          "size": "21.6px"
+        },
+        {
+          "text": "Concrete and finishing works",
+          "size": "21.6px"
+        },
+        {
+          "text": "Infrastructure and external works",
+          "size": "21.6px"
+        },
+        {
+          "text": "Build with control.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Contracting & Construction Services in Qatar | OZONE",
+      "description": "OZONE provides general contracting, design and build, civil works, renovation and refurbishment in Qatar, with coordinated site delivery and quality control.",
+      "canonical": "https://www.ozonefitout.com/services/contracting-construction",
+      "ogUrl": "https://www.ozonefitout.com/services/contracting-construction",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/services/mep",
+      "status": 200,
+      "headings": [
+        {
+          "text": "The systems behind the space.",
+          "size": "38.4px"
+        },
+        {
+          "text": "Performance is designed in.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "MEP Services in Doha, Qatar | OZONE",
+      "description": "Mechanical, electrical and plumbing services in Qatar: HVAC, lighting, fire protection, ELV, testing and commissioning coordinated by OZONE.",
+      "canonical": "https://www.ozonefitout.com/services/mep",
+      "ogUrl": "https://www.ozonefitout.com/services/mep",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/services/engineering",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Where vision becomes buildable.",
+          "size": "38.4px"
+        },
+        {
+          "text": "Resolve before site.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Design for delivery.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Engineering Consultancy & Design in Qatar | OZONE",
+      "description": "OZONE engineering consultancy in Qatar covers architectural, structural and MEP design, BIM coordination, shop drawings, project planning and cost consultancy.",
+      "canonical": "https://www.ozonefitout.com/services/engineering",
+      "ogUrl": "https://www.ozonefitout.com/services/engineering",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/projects",
+      "status": 200,
+      "headings": [
+        {
+          "text": "The work.",
+          "size": "38.4px"
+        },
+        {
+          "text": "Work across Qatar",
+          "size": "28.8px"
+        },
+        {
+          "text": "Qatar Rail",
+          "size": "20px"
+        },
+        {
+          "text": "Maestro Medical Centre",
+          "size": "20px"
+        },
+        {
+          "text": "Apparel Group Head Office",
+          "size": "20px"
+        },
+        {
+          "text": "360 Play - Mall of Qatar",
+          "size": "20px"
+        },
+        {
+          "text": "Tim Hortons",
+          "size": "20px"
+        },
+        {
+          "text": "Karak Stop",
+          "size": "20px"
+        },
+        {
+          "text": "Camel Café",
+          "size": "20px"
+        },
+        {
+          "text": "Malabar Gold & Diamonds",
+          "size": "20px"
+        },
+        {
+          "text": "Jawhara Jewellery",
+          "size": "20px"
+        },
+        {
+          "text": "Le Coiffeur",
+          "size": "20px"
+        },
+        {
+          "text": "Phone Booth",
+          "size": "20px"
+        },
+        {
+          "text": "Al Anees Electronics",
+          "size": "20px"
+        },
+        {
+          "text": "Lavender",
+          "size": "20px"
+        },
+        {
+          "text": "VLCC",
+          "size": "20px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out Projects & Portfolio in Qatar | OZONE",
+      "description": "Explore the OZONE project portfolio, including Qatar Rail, Maestro Medical Centre and Apparel Group Head Office, plus retail, F&B and commercial references.",
+      "canonical": "https://www.ozonefitout.com/projects",
+      "ogUrl": "https://www.ozonefitout.com/projects",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/projects/qatar-rail",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Qatar Rail.",
+          "size": "38.4px"
+        },
+        {
+          "text": "Built for movement.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Qatar Rail | Interior Fit-Out Project | OZONE",
+      "description": "Explore OZONE's Qatar Rail interior fit-out portfolio in Doha, Qatar. View complete project photographs and architectural details in the project gallery.",
+      "canonical": "https://www.ozonefitout.com/projects/qatar-rail",
+      "ogUrl": "https://www.ozonefitout.com/projects/qatar-rail",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/projects/maestro",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Maestro Medical Centre.",
+          "size": "38.4px"
+        },
+        {
+          "text": "Quiet luxury. Exact delivery.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Maestro Medical Centre | Healthcare Fit-Out | OZONE",
+      "description": "View Maestro Medical Centre in the OZONE healthcare portfolio in Doha, Qatar. Explore the complete interior composition and coordinated approach to clinical spaces.",
+      "canonical": "https://www.ozonefitout.com/projects/maestro",
+      "ogUrl": "https://www.ozonefitout.com/projects/maestro",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/projects/apparel-group",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Apparel Group Head Office.",
+          "size": "38.4px"
+        },
+        {
+          "text": "A workspace designed to perform.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Apparel Group Head Office | Corporate Fit-Out | OZONE",
+      "description": "Explore Apparel Group Head Office in OZONE's corporate fit-out portfolio in Doha, Qatar. View workplace interiors, finishes and the complete project composition.",
+      "canonical": "https://www.ozonefitout.com/projects/apparel-group",
+      "ogUrl": "https://www.ozonefitout.com/projects/apparel-group",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/clients",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Trust built over time.",
+          "size": "38.4px"
+        },
+        {
+          "text": "Working relationships made visible.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Clients & Portfolio References in Qatar | OZONE",
+      "description": "Explore clients and portfolio references listed in the OZONE company profile, spanning transit, aviation, healthcare, retail, hospitality and corporate spaces.",
+      "canonical": "https://www.ozonefitout.com/clients",
+      "ogUrl": "https://www.ozonefitout.com/clients",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/process",
+      "status": 200,
+      "headings": [
+        {
+          "text": "From plan to place.",
+          "size": "38.4px"
+        },
+        {
+          "text": "Planning",
+          "size": "28.8px"
+        },
+        {
+          "text": "Material management",
+          "size": "28.8px"
+        },
+        {
+          "text": "Installation",
+          "size": "28.8px"
+        },
+        {
+          "text": "Quality control",
+          "size": "28.8px"
+        },
+        {
+          "text": "Final inspection",
+          "size": "28.8px"
+        },
+        {
+          "text": "Handover",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Our Fit-Out & Construction Delivery Process | OZONE",
+      "description": "Follow OZONE's project delivery process: planning and approvals, material management, installation, quality checks, inspection, testing and handover.",
+      "canonical": "https://www.ozonefitout.com/process",
+      "ogUrl": "https://www.ozonefitout.com/process",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/quality-safety",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Built right.",
+          "size": "38.4px"
+        },
+        {
+          "text": "9001:2015",
+          "size": "28.8px"
+        },
+        {
+          "text": "Check the work while it is work.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Control before action.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Precision is a process.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Quality Management & Site Safety | OZONE",
+      "description": "Learn about OZONE's ISO 9001:2015 quality management, site safety practices, material controls, inspections and accountable project handover.",
+      "canonical": "https://www.ozonefitout.com/quality-safety",
+      "ogUrl": "https://www.ozonefitout.com/quality-safety",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/sectors",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Different spaces. Specific demands.",
+          "size": "38.4px"
+        },
+        {
+          "text": "Transit & Aviation",
+          "size": "28.8px"
+        },
+        {
+          "text": "Healthcare",
+          "size": "28.8px"
+        },
+        {
+          "text": "Corporate & Commercial",
+          "size": "28.8px"
+        },
+        {
+          "text": "Retail & F&B",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out Sectors in Qatar | OZONE",
+      "description": "OZONE's sector experience covers transit and aviation, healthcare, corporate and commercial offices, retail and F&B interiors across Qatar.",
+      "canonical": "https://www.ozonefitout.com/sectors",
+      "ogUrl": "https://www.ozonefitout.com/sectors",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/insights",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Useful knowledge from the work.",
+          "size": "38.4px"
+        },
+        {
+          "text": "Planning a commercial fit-out before site mobilisation",
+          "size": "20px"
+        },
+        {
+          "text": "Why MEP coordination must happen before the ceiling closes",
+          "size": "20px"
+        },
+        {
+          "text": "What a clean project handover should contain",
+          "size": "20px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out Planning, MEP & Handover Guides | OZONE",
+      "description": "Practical OZONE guidance on commercial fit-out planning, MEP coordination before ceiling closure, and the records needed for a complete project handover.",
+      "canonical": "https://www.ozonefitout.com/insights",
+      "ogUrl": "https://www.ozonefitout.com/insights",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/contact",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Have a space in mind?",
+          "size": "38.4px"
+        },
+        {
+          "text": "Talk directly to OZONE.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Start with the essentials.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Contact OZONE in Doha | Project Enquiries | OZONE",
+      "description": "Discuss your fit-out, construction, MEP or engineering project with OZONE in Doha. Call +974 3330 7095 or prepare a project enquiry through WhatsApp.",
+      "canonical": "https://www.ozonefitout.com/contact",
+      "ogUrl": "https://www.ozonefitout.com/contact",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 320,
+      "route": "/privacy",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Your project details.",
+          "size": "38.4px"
+        },
+        {
+          "text": "Project enquiries",
+          "size": "25.6px"
+        },
+        {
+          "text": "After you contact us",
+          "size": "25.6px"
+        },
+        {
+          "text": "Website requests and external services",
+          "size": "25.6px"
+        },
+        {
+          "text": "Contact",
+          "size": "25.6px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Website Privacy Information | OZONE",
+      "description": "How the OZONE website handles project enquiry details, WhatsApp links, third-party images and technical requests. Contact OZONE for privacy questions.",
+      "canonical": "https://www.ozonefitout.com/privacy",
+      "ogUrl": "https://www.ozonefitout.com/privacy",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "status": 200,
+      "headings": [
+        {
+          "text": "We build spaces that work. We shape spaces built to last.We build spacestha",
+          "size": "41.2px"
+        },
+        {
+          "text": "Proof, not promises.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Brands and places people know.",
+          "size": "28.8px"
+        },
+        {
+          "text": "One team.Every critical layer.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Interior Fit-Out",
+          "size": "21.6px"
+        },
+        {
+          "text": "Contracting & Construction",
+          "size": "21.6px"
+        },
+        {
+          "text": "MEP Services",
+          "size": "21.6px"
+        },
+        {
+          "text": "Engineering Consultancy & Design",
+          "size": "21.6px"
+        },
+        {
+          "text": "From idea to operational space.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Idea",
+          "size": "21.6px"
+        },
+        {
+          "text": "Design",
+          "size": "21.6px"
+        },
+        {
+          "text": "Build",
+          "size": "21.6px"
+        },
+        {
+          "text": "Space",
+          "size": "21.6px"
+        },
+        {
+          "text": "Built to perform. Finished to last.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Bring us the space.We’ll build the certainty.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out & Contracting Company in Doha, Qatar",
+      "description": "OZONE delivers interior fit-out, construction, MEP and engineering services in Doha, Qatar. Explore our transit, healthcare, corporate and retail portfolio.",
+      "canonical": "https://www.ozonefitout.com/",
+      "ogUrl": "https://www.ozonefitout.com",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/about",
+      "status": 200,
+      "headings": [
+        {
+          "text": "We don’t just build spaces.",
+          "size": "41.2px"
+        },
+        {
+          "text": "The people behind the space.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Exceptional value. Clear responsibility.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Understand",
+          "size": "21.6px"
+        },
+        {
+          "text": "Plan",
+          "size": "21.6px"
+        },
+        {
+          "text": "Design",
+          "size": "21.6px"
+        },
+        {
+          "text": "Engineer",
+          "size": "21.6px"
+        },
+        {
+          "text": "Build",
+          "size": "21.6px"
+        },
+        {
+          "text": "Deliver",
+          "size": "21.6px"
+        },
+        {
+          "text": "Let the work tell the story.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "About OZONE | Fit-Out & Contracting in Qatar | OZONE",
+      "description": "Meet OZONE Fitout & Contracting W.L.L. Explore the people, principles and coordinated approach behind our interior and construction delivery in Qatar.",
+      "canonical": "https://www.ozonefitout.com/about",
+      "ogUrl": "https://www.ozonefitout.com/about",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/services",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Our capabilities.",
+          "size": "41.2px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out, Construction, MEP & Engineering Services | OZONE",
+      "description": "Explore OZONE's four coordinated disciplines in Qatar: interior fit-out, contracting and construction, MEP services, and engineering consultancy and design.",
+      "canonical": "https://www.ozonefitout.com/services",
+      "ogUrl": "https://www.ozonefitout.com/services",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/services/interior-fit-out",
+      "status": 200,
+      "headings": [
+        {
+          "text": "From empty space to experience.",
+          "size": "41.2px"
+        },
+        {
+          "text": "One space. Every visible layer.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Make the space work.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Interior Fit-Out Services in Doha, Qatar | OZONE",
+      "description": "Office, retail, hospitality and residential interior fit-out in Qatar. OZONE coordinates joinery, ceilings, partitions, flooring, finishes and specialist trades.",
+      "canonical": "https://www.ozonefitout.com/services/interior-fit-out",
+      "ogUrl": "https://www.ozonefitout.com/services/interior-fit-out",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/services/contracting-construction",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Building the framework.",
+          "size": "41.2px"
+        },
+        {
+          "text": "General contracting",
+          "size": "21.6px"
+        },
+        {
+          "text": "Design and build solutions",
+          "size": "21.6px"
+        },
+        {
+          "text": "Civil and structural construction",
+          "size": "21.6px"
+        },
+        {
+          "text": "Commercial and residential developments",
+          "size": "21.6px"
+        },
+        {
+          "text": "Building renovation and refurbishment",
+          "size": "21.6px"
+        },
+        {
+          "text": "Concrete and finishing works",
+          "size": "21.6px"
+        },
+        {
+          "text": "Infrastructure and external works",
+          "size": "21.6px"
+        },
+        {
+          "text": "Build with control.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Contracting & Construction Services in Qatar | OZONE",
+      "description": "OZONE provides general contracting, design and build, civil works, renovation and refurbishment in Qatar, with coordinated site delivery and quality control.",
+      "canonical": "https://www.ozonefitout.com/services/contracting-construction",
+      "ogUrl": "https://www.ozonefitout.com/services/contracting-construction",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/services/mep",
+      "status": 200,
+      "headings": [
+        {
+          "text": "The systems behind the space.",
+          "size": "41.2px"
+        },
+        {
+          "text": "Performance is designed in.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "MEP Services in Doha, Qatar | OZONE",
+      "description": "Mechanical, electrical and plumbing services in Qatar: HVAC, lighting, fire protection, ELV, testing and commissioning coordinated by OZONE.",
+      "canonical": "https://www.ozonefitout.com/services/mep",
+      "ogUrl": "https://www.ozonefitout.com/services/mep",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/services/engineering",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Where vision becomes buildable.",
+          "size": "41.2px"
+        },
+        {
+          "text": "Resolve before site.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Design for delivery.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Engineering Consultancy & Design in Qatar | OZONE",
+      "description": "OZONE engineering consultancy in Qatar covers architectural, structural and MEP design, BIM coordination, shop drawings, project planning and cost consultancy.",
+      "canonical": "https://www.ozonefitout.com/services/engineering",
+      "ogUrl": "https://www.ozonefitout.com/services/engineering",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/projects",
+      "status": 200,
+      "headings": [
+        {
+          "text": "The work.",
+          "size": "41.2px"
+        },
+        {
+          "text": "Work across Qatar",
+          "size": "28.8px"
+        },
+        {
+          "text": "Qatar Rail",
+          "size": "20px"
+        },
+        {
+          "text": "Maestro Medical Centre",
+          "size": "20px"
+        },
+        {
+          "text": "Apparel Group Head Office",
+          "size": "20px"
+        },
+        {
+          "text": "360 Play - Mall of Qatar",
+          "size": "20px"
+        },
+        {
+          "text": "Tim Hortons",
+          "size": "20px"
+        },
+        {
+          "text": "Karak Stop",
+          "size": "20px"
+        },
+        {
+          "text": "Camel Café",
+          "size": "20px"
+        },
+        {
+          "text": "Malabar Gold & Diamonds",
+          "size": "20px"
+        },
+        {
+          "text": "Jawhara Jewellery",
+          "size": "20px"
+        },
+        {
+          "text": "Le Coiffeur",
+          "size": "20px"
+        },
+        {
+          "text": "Phone Booth",
+          "size": "20px"
+        },
+        {
+          "text": "Al Anees Electronics",
+          "size": "20px"
+        },
+        {
+          "text": "Lavender",
+          "size": "20px"
+        },
+        {
+          "text": "VLCC",
+          "size": "20px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out Projects & Portfolio in Qatar | OZONE",
+      "description": "Explore the OZONE project portfolio, including Qatar Rail, Maestro Medical Centre and Apparel Group Head Office, plus retail, F&B and commercial references.",
+      "canonical": "https://www.ozonefitout.com/projects",
+      "ogUrl": "https://www.ozonefitout.com/projects",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/projects/qatar-rail",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Qatar Rail.",
+          "size": "41.2px"
+        },
+        {
+          "text": "Built for movement.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Qatar Rail | Interior Fit-Out Project | OZONE",
+      "description": "Explore OZONE's Qatar Rail interior fit-out portfolio in Doha, Qatar. View complete project photographs and architectural details in the project gallery.",
+      "canonical": "https://www.ozonefitout.com/projects/qatar-rail",
+      "ogUrl": "https://www.ozonefitout.com/projects/qatar-rail",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/projects/maestro",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Maestro Medical Centre.",
+          "size": "41.2px"
+        },
+        {
+          "text": "Quiet luxury. Exact delivery.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Maestro Medical Centre | Healthcare Fit-Out | OZONE",
+      "description": "View Maestro Medical Centre in the OZONE healthcare portfolio in Doha, Qatar. Explore the complete interior composition and coordinated approach to clinical spaces.",
+      "canonical": "https://www.ozonefitout.com/projects/maestro",
+      "ogUrl": "https://www.ozonefitout.com/projects/maestro",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/projects/apparel-group",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Apparel Group Head Office.",
+          "size": "41.2px"
+        },
+        {
+          "text": "A workspace designed to perform.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Apparel Group Head Office | Corporate Fit-Out | OZONE",
+      "description": "Explore Apparel Group Head Office in OZONE's corporate fit-out portfolio in Doha, Qatar. View workplace interiors, finishes and the complete project composition.",
+      "canonical": "https://www.ozonefitout.com/projects/apparel-group",
+      "ogUrl": "https://www.ozonefitout.com/projects/apparel-group",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/clients",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Trust built over time.",
+          "size": "41.2px"
+        },
+        {
+          "text": "Working relationships made visible.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Clients & Portfolio References in Qatar | OZONE",
+      "description": "Explore clients and portfolio references listed in the OZONE company profile, spanning transit, aviation, healthcare, retail, hospitality and corporate spaces.",
+      "canonical": "https://www.ozonefitout.com/clients",
+      "ogUrl": "https://www.ozonefitout.com/clients",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/process",
+      "status": 200,
+      "headings": [
+        {
+          "text": "From plan to place.",
+          "size": "41.2px"
+        },
+        {
+          "text": "Planning",
+          "size": "28.8px"
+        },
+        {
+          "text": "Material management",
+          "size": "28.8px"
+        },
+        {
+          "text": "Installation",
+          "size": "28.8px"
+        },
+        {
+          "text": "Quality control",
+          "size": "28.8px"
+        },
+        {
+          "text": "Final inspection",
+          "size": "28.8px"
+        },
+        {
+          "text": "Handover",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Our Fit-Out & Construction Delivery Process | OZONE",
+      "description": "Follow OZONE's project delivery process: planning and approvals, material management, installation, quality checks, inspection, testing and handover.",
+      "canonical": "https://www.ozonefitout.com/process",
+      "ogUrl": "https://www.ozonefitout.com/process",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/quality-safety",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Built right.",
+          "size": "41.2px"
+        },
+        {
+          "text": "9001:2015",
+          "size": "28.8px"
+        },
+        {
+          "text": "Check the work while it is work.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Control before action.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Precision is a process.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Quality Management & Site Safety | OZONE",
+      "description": "Learn about OZONE's ISO 9001:2015 quality management, site safety practices, material controls, inspections and accountable project handover.",
+      "canonical": "https://www.ozonefitout.com/quality-safety",
+      "ogUrl": "https://www.ozonefitout.com/quality-safety",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/sectors",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Different spaces. Specific demands.",
+          "size": "41.2px"
+        },
+        {
+          "text": "Transit & Aviation",
+          "size": "28.8px"
+        },
+        {
+          "text": "Healthcare",
+          "size": "28.8px"
+        },
+        {
+          "text": "Corporate & Commercial",
+          "size": "28.8px"
+        },
+        {
+          "text": "Retail & F&B",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out Sectors in Qatar | OZONE",
+      "description": "OZONE's sector experience covers transit and aviation, healthcare, corporate and commercial offices, retail and F&B interiors across Qatar.",
+      "canonical": "https://www.ozonefitout.com/sectors",
+      "ogUrl": "https://www.ozonefitout.com/sectors",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/insights",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Useful knowledge from the work.",
+          "size": "41.2px"
+        },
+        {
+          "text": "Planning a commercial fit-out before site mobilisation",
+          "size": "20px"
+        },
+        {
+          "text": "Why MEP coordination must happen before the ceiling closes",
+          "size": "20px"
+        },
+        {
+          "text": "What a clean project handover should contain",
+          "size": "20px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out Planning, MEP & Handover Guides | OZONE",
+      "description": "Practical OZONE guidance on commercial fit-out planning, MEP coordination before ceiling closure, and the records needed for a complete project handover.",
+      "canonical": "https://www.ozonefitout.com/insights",
+      "ogUrl": "https://www.ozonefitout.com/insights",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/contact",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Have a space in mind?",
+          "size": "41.2px"
+        },
+        {
+          "text": "Talk directly to OZONE.",
+          "size": "28.8px"
+        },
+        {
+          "text": "Start with the essentials.",
+          "size": "28.8px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Contact OZONE in Doha | Project Enquiries | OZONE",
+      "description": "Discuss your fit-out, construction, MEP or engineering project with OZONE in Doha. Call +974 3330 7095 or prepare a project enquiry through WhatsApp.",
+      "canonical": "https://www.ozonefitout.com/contact",
+      "ogUrl": "https://www.ozonefitout.com/contact",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 390,
+      "route": "/privacy",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Your project details.",
+          "size": "41.2px"
+        },
+        {
+          "text": "Project enquiries",
+          "size": "25.6px"
+        },
+        {
+          "text": "After you contact us",
+          "size": "25.6px"
+        },
+        {
+          "text": "Website requests and external services",
+          "size": "25.6px"
+        },
+        {
+          "text": "Contact",
+          "size": "25.6px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Website Privacy Information | OZONE",
+      "description": "How the OZONE website handles project enquiry details, WhatsApp links, third-party images and technical requests. Contact OZONE for privacy questions.",
+      "canonical": "https://www.ozonefitout.com/privacy",
+      "ogUrl": "https://www.ozonefitout.com/privacy",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "status": 200,
+      "headings": [
+        {
+          "text": "We build spaces that work. We shape spaces built to last.We build spacestha",
+          "size": "56.32px"
+        },
+        {
+          "text": "Proof, not promises.",
+          "size": "39.104px"
+        },
+        {
+          "text": "Brands and places people know.",
+          "size": "39.104px"
+        },
+        {
+          "text": "One team.Every critical layer.",
+          "size": "39.104px"
+        },
+        {
+          "text": "Interior Fit-Out",
+          "size": "27.456px"
+        },
+        {
+          "text": "Contracting & Construction",
+          "size": "27.456px"
+        },
+        {
+          "text": "MEP Services",
+          "size": "27.456px"
+        },
+        {
+          "text": "Engineering Consultancy & Design",
+          "size": "27.456px"
+        },
+        {
+          "text": "From idea to operational space.",
+          "size": "39.104px"
+        },
+        {
+          "text": "Idea",
+          "size": "27.456px"
+        },
+        {
+          "text": "Design",
+          "size": "27.456px"
+        },
+        {
+          "text": "Build",
+          "size": "27.456px"
+        },
+        {
+          "text": "Space",
+          "size": "27.456px"
+        },
+        {
+          "text": "Built to perform. Finished to last.",
+          "size": "39.104px"
+        },
+        {
+          "text": "Bring us the space.We’ll build the certainty.",
+          "size": "39.104px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out & Contracting Company in Doha, Qatar",
+      "description": "OZONE delivers interior fit-out, construction, MEP and engineering services in Doha, Qatar. Explore our transit, healthcare, corporate and retail portfolio.",
+      "canonical": "https://www.ozonefitout.com/",
+      "ogUrl": "https://www.ozonefitout.com",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/about",
+      "status": 200,
+      "headings": [
+        {
+          "text": "We don’t just build spaces.",
+          "size": "56.32px"
+        },
+        {
+          "text": "The people behind the space.",
+          "size": "39.104px"
+        },
+        {
+          "text": "Exceptional value. Clear responsibility.",
+          "size": "39.104px"
+        },
+        {
+          "text": "Understand",
+          "size": "27.456px"
+        },
+        {
+          "text": "Plan",
+          "size": "27.456px"
+        },
+        {
+          "text": "Design",
+          "size": "27.456px"
+        },
+        {
+          "text": "Engineer",
+          "size": "27.456px"
+        },
+        {
+          "text": "Build",
+          "size": "27.456px"
+        },
+        {
+          "text": "Deliver",
+          "size": "27.456px"
+        },
+        {
+          "text": "Let the work tell the story.",
+          "size": "39.104px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "About OZONE | Fit-Out & Contracting in Qatar | OZONE",
+      "description": "Meet OZONE Fitout & Contracting W.L.L. Explore the people, principles and coordinated approach behind our interior and construction delivery in Qatar.",
+      "canonical": "https://www.ozonefitout.com/about",
+      "ogUrl": "https://www.ozonefitout.com/about",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/services",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Our capabilities.",
+          "size": "56.32px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out, Construction, MEP & Engineering Services | OZONE",
+      "description": "Explore OZONE's four coordinated disciplines in Qatar: interior fit-out, contracting and construction, MEP services, and engineering consultancy and design.",
+      "canonical": "https://www.ozonefitout.com/services",
+      "ogUrl": "https://www.ozonefitout.com/services",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/services/interior-fit-out",
+      "status": 200,
+      "headings": [
+        {
+          "text": "From empty space to experience.",
+          "size": "56.32px"
+        },
+        {
+          "text": "One space. Every visible layer.",
+          "size": "39.104px"
+        },
+        {
+          "text": "Make the space work.",
+          "size": "39.104px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Interior Fit-Out Services in Doha, Qatar | OZONE",
+      "description": "Office, retail, hospitality and residential interior fit-out in Qatar. OZONE coordinates joinery, ceilings, partitions, flooring, finishes and specialist trades.",
+      "canonical": "https://www.ozonefitout.com/services/interior-fit-out",
+      "ogUrl": "https://www.ozonefitout.com/services/interior-fit-out",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/services/contracting-construction",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Building the framework.",
+          "size": "56.32px"
+        },
+        {
+          "text": "General contracting",
+          "size": "27.456px"
+        },
+        {
+          "text": "Design and build solutions",
+          "size": "27.456px"
+        },
+        {
+          "text": "Civil and structural construction",
+          "size": "27.456px"
+        },
+        {
+          "text": "Commercial and residential developments",
+          "size": "27.456px"
+        },
+        {
+          "text": "Building renovation and refurbishment",
+          "size": "27.456px"
+        },
+        {
+          "text": "Concrete and finishing works",
+          "size": "27.456px"
+        },
+        {
+          "text": "Infrastructure and external works",
+          "size": "27.456px"
+        },
+        {
+          "text": "Build with control.",
+          "size": "39.104px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Contracting & Construction Services in Qatar | OZONE",
+      "description": "OZONE provides general contracting, design and build, civil works, renovation and refurbishment in Qatar, with coordinated site delivery and quality control.",
+      "canonical": "https://www.ozonefitout.com/services/contracting-construction",
+      "ogUrl": "https://www.ozonefitout.com/services/contracting-construction",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/services/mep",
+      "status": 200,
+      "headings": [
+        {
+          "text": "The systems behind the space.",
+          "size": "56.32px"
+        },
+        {
+          "text": "Performance is designed in.",
+          "size": "39.104px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "MEP Services in Doha, Qatar | OZONE",
+      "description": "Mechanical, electrical and plumbing services in Qatar: HVAC, lighting, fire protection, ELV, testing and commissioning coordinated by OZONE.",
+      "canonical": "https://www.ozonefitout.com/services/mep",
+      "ogUrl": "https://www.ozonefitout.com/services/mep",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/services/engineering",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Where vision becomes buildable.",
+          "size": "56.32px"
+        },
+        {
+          "text": "Resolve before site.",
+          "size": "39.104px"
+        },
+        {
+          "text": "Design for delivery.",
+          "size": "39.104px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Engineering Consultancy & Design in Qatar | OZONE",
+      "description": "OZONE engineering consultancy in Qatar covers architectural, structural and MEP design, BIM coordination, shop drawings, project planning and cost consultancy.",
+      "canonical": "https://www.ozonefitout.com/services/engineering",
+      "ogUrl": "https://www.ozonefitout.com/services/engineering",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/projects",
+      "status": 200,
+      "headings": [
+        {
+          "text": "The work.",
+          "size": "56.32px"
+        },
+        {
+          "text": "Work across Qatar",
+          "size": "39.104px"
+        },
+        {
+          "text": "Qatar Rail",
+          "size": "22.912px"
+        },
+        {
+          "text": "Maestro Medical Centre",
+          "size": "22.912px"
+        },
+        {
+          "text": "Apparel Group Head Office",
+          "size": "22.912px"
+        },
+        {
+          "text": "360 Play - Mall of Qatar",
+          "size": "22.912px"
+        },
+        {
+          "text": "Tim Hortons",
+          "size": "22.912px"
+        },
+        {
+          "text": "Karak Stop",
+          "size": "22.912px"
+        },
+        {
+          "text": "Camel Café",
+          "size": "22.912px"
+        },
+        {
+          "text": "Malabar Gold & Diamonds",
+          "size": "22.912px"
+        },
+        {
+          "text": "Jawhara Jewellery",
+          "size": "22.912px"
+        },
+        {
+          "text": "Le Coiffeur",
+          "size": "22.912px"
+        },
+        {
+          "text": "Phone Booth",
+          "size": "22.912px"
+        },
+        {
+          "text": "Al Anees Electronics",
+          "size": "22.912px"
+        },
+        {
+          "text": "Lavender",
+          "size": "22.912px"
+        },
+        {
+          "text": "VLCC",
+          "size": "22.912px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out Projects & Portfolio in Qatar | OZONE",
+      "description": "Explore the OZONE project portfolio, including Qatar Rail, Maestro Medical Centre and Apparel Group Head Office, plus retail, F&B and commercial references.",
+      "canonical": "https://www.ozonefitout.com/projects",
+      "ogUrl": "https://www.ozonefitout.com/projects",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/projects/qatar-rail",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Qatar Rail.",
+          "size": "56.32px"
+        },
+        {
+          "text": "Built for movement.",
+          "size": "39.104px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Qatar Rail | Interior Fit-Out Project | OZONE",
+      "description": "Explore OZONE's Qatar Rail interior fit-out portfolio in Doha, Qatar. View complete project photographs and architectural details in the project gallery.",
+      "canonical": "https://www.ozonefitout.com/projects/qatar-rail",
+      "ogUrl": "https://www.ozonefitout.com/projects/qatar-rail",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/projects/maestro",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Maestro Medical Centre.",
+          "size": "56.32px"
+        },
+        {
+          "text": "Quiet luxury. Exact delivery.",
+          "size": "39.104px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Maestro Medical Centre | Healthcare Fit-Out | OZONE",
+      "description": "View Maestro Medical Centre in the OZONE healthcare portfolio in Doha, Qatar. Explore the complete interior composition and coordinated approach to clinical spaces.",
+      "canonical": "https://www.ozonefitout.com/projects/maestro",
+      "ogUrl": "https://www.ozonefitout.com/projects/maestro",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/projects/apparel-group",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Apparel Group Head Office.",
+          "size": "56.32px"
+        },
+        {
+          "text": "A workspace designed to perform.",
+          "size": "39.104px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Apparel Group Head Office | Corporate Fit-Out | OZONE",
+      "description": "Explore Apparel Group Head Office in OZONE's corporate fit-out portfolio in Doha, Qatar. View workplace interiors, finishes and the complete project composition.",
+      "canonical": "https://www.ozonefitout.com/projects/apparel-group",
+      "ogUrl": "https://www.ozonefitout.com/projects/apparel-group",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/clients",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Trust built over time.",
+          "size": "56.32px"
+        },
+        {
+          "text": "Working relationships made visible.",
+          "size": "39.104px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Clients & Portfolio References in Qatar | OZONE",
+      "description": "Explore clients and portfolio references listed in the OZONE company profile, spanning transit, aviation, healthcare, retail, hospitality and corporate spaces.",
+      "canonical": "https://www.ozonefitout.com/clients",
+      "ogUrl": "https://www.ozonefitout.com/clients",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/process",
+      "status": 200,
+      "headings": [
+        {
+          "text": "From plan to place.",
+          "size": "56.32px"
+        },
+        {
+          "text": "Planning",
+          "size": "39.104px"
+        },
+        {
+          "text": "Material management",
+          "size": "39.104px"
+        },
+        {
+          "text": "Installation",
+          "size": "39.104px"
+        },
+        {
+          "text": "Quality control",
+          "size": "39.104px"
+        },
+        {
+          "text": "Final inspection",
+          "size": "39.104px"
+        },
+        {
+          "text": "Handover",
+          "size": "39.104px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Our Fit-Out & Construction Delivery Process | OZONE",
+      "description": "Follow OZONE's project delivery process: planning and approvals, material management, installation, quality checks, inspection, testing and handover.",
+      "canonical": "https://www.ozonefitout.com/process",
+      "ogUrl": "https://www.ozonefitout.com/process",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/quality-safety",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Built right.",
+          "size": "56.32px"
+        },
+        {
+          "text": "9001:2015",
+          "size": "39.104px"
+        },
+        {
+          "text": "Check the work while it is work.",
+          "size": "39.104px"
+        },
+        {
+          "text": "Control before action.",
+          "size": "39.104px"
+        },
+        {
+          "text": "Precision is a process.",
+          "size": "39.104px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Quality Management & Site Safety | OZONE",
+      "description": "Learn about OZONE's ISO 9001:2015 quality management, site safety practices, material controls, inspections and accountable project handover.",
+      "canonical": "https://www.ozonefitout.com/quality-safety",
+      "ogUrl": "https://www.ozonefitout.com/quality-safety",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/sectors",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Different spaces. Specific demands.",
+          "size": "56.32px"
+        },
+        {
+          "text": "Transit & Aviation",
+          "size": "39.104px"
+        },
+        {
+          "text": "Healthcare",
+          "size": "39.104px"
+        },
+        {
+          "text": "Corporate & Commercial",
+          "size": "39.104px"
+        },
+        {
+          "text": "Retail & F&B",
+          "size": "39.104px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out Sectors in Qatar | OZONE",
+      "description": "OZONE's sector experience covers transit and aviation, healthcare, corporate and commercial offices, retail and F&B interiors across Qatar.",
+      "canonical": "https://www.ozonefitout.com/sectors",
+      "ogUrl": "https://www.ozonefitout.com/sectors",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/insights",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Useful knowledge from the work.",
+          "size": "56.32px"
+        },
+        {
+          "text": "Planning a commercial fit-out before site mobilisation",
+          "size": "22.912px"
+        },
+        {
+          "text": "Why MEP coordination must happen before the ceiling closes",
+          "size": "22.912px"
+        },
+        {
+          "text": "What a clean project handover should contain",
+          "size": "22.912px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out Planning, MEP & Handover Guides | OZONE",
+      "description": "Practical OZONE guidance on commercial fit-out planning, MEP coordination before ceiling closure, and the records needed for a complete project handover.",
+      "canonical": "https://www.ozonefitout.com/insights",
+      "ogUrl": "https://www.ozonefitout.com/insights",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/contact",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Have a space in mind?",
+          "size": "56.32px"
+        },
+        {
+          "text": "Talk directly to OZONE.",
+          "size": "39.104px"
+        },
+        {
+          "text": "Start with the essentials.",
+          "size": "39.104px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Contact OZONE in Doha | Project Enquiries | OZONE",
+      "description": "Discuss your fit-out, construction, MEP or engineering project with OZONE in Doha. Call +974 3330 7095 or prepare a project enquiry through WhatsApp.",
+      "canonical": "https://www.ozonefitout.com/contact",
+      "ogUrl": "https://www.ozonefitout.com/contact",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 768,
+      "route": "/privacy",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Your project details.",
+          "size": "56.32px"
+        },
+        {
+          "text": "Project enquiries",
+          "size": "25.6px"
+        },
+        {
+          "text": "After you contact us",
+          "size": "25.6px"
+        },
+        {
+          "text": "Website requests and external services",
+          "size": "25.6px"
+        },
+        {
+          "text": "Contact",
+          "size": "25.6px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Website Privacy Information | OZONE",
+      "description": "How the OZONE website handles project enquiry details, WhatsApp links, third-party images and technical requests. Contact OZONE for privacy questions.",
+      "canonical": "https://www.ozonefitout.com/privacy",
+      "ogUrl": "https://www.ozonefitout.com/privacy",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "status": 200,
+      "headings": [
+        {
+          "text": "We build spaces that work. We shape spaces built to last.We build spacestha",
+          "size": "80px"
+        },
+        {
+          "text": "Proof, not promises.",
+          "size": "57.92px"
+        },
+        {
+          "text": "Brands and places people know.",
+          "size": "57.92px"
+        },
+        {
+          "text": "One team.Every critical layer.",
+          "size": "57.92px"
+        },
+        {
+          "text": "Interior Fit-Out",
+          "size": "38.88px"
+        },
+        {
+          "text": "Contracting & Construction",
+          "size": "38.88px"
+        },
+        {
+          "text": "MEP Services",
+          "size": "38.88px"
+        },
+        {
+          "text": "Engineering Consultancy & Design",
+          "size": "38.88px"
+        },
+        {
+          "text": "From idea to operational space.",
+          "size": "57.92px"
+        },
+        {
+          "text": "Idea",
+          "size": "38.88px"
+        },
+        {
+          "text": "Design",
+          "size": "38.88px"
+        },
+        {
+          "text": "Build",
+          "size": "38.88px"
+        },
+        {
+          "text": "Space",
+          "size": "38.88px"
+        },
+        {
+          "text": "Built to perform. Finished to last.",
+          "size": "57.92px"
+        },
+        {
+          "text": "Bring us the space.We’ll build the certainty.",
+          "size": "57.92px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out & Contracting Company in Doha, Qatar",
+      "description": "OZONE delivers interior fit-out, construction, MEP and engineering services in Doha, Qatar. Explore our transit, healthcare, corporate and retail portfolio.",
+      "canonical": "https://www.ozonefitout.com/",
+      "ogUrl": "https://www.ozonefitout.com",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/about",
+      "status": 200,
+      "headings": [
+        {
+          "text": "We don’t just build spaces.",
+          "size": "80px"
+        },
+        {
+          "text": "The people behind the space.",
+          "size": "57.92px"
+        },
+        {
+          "text": "Exceptional value. Clear responsibility.",
+          "size": "57.92px"
+        },
+        {
+          "text": "Understand",
+          "size": "38.88px"
+        },
+        {
+          "text": "Plan",
+          "size": "38.88px"
+        },
+        {
+          "text": "Design",
+          "size": "38.88px"
+        },
+        {
+          "text": "Engineer",
+          "size": "38.88px"
+        },
+        {
+          "text": "Build",
+          "size": "38.88px"
+        },
+        {
+          "text": "Deliver",
+          "size": "38.88px"
+        },
+        {
+          "text": "Let the work tell the story.",
+          "size": "57.92px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "About OZONE | Fit-Out & Contracting in Qatar | OZONE",
+      "description": "Meet OZONE Fitout & Contracting W.L.L. Explore the people, principles and coordinated approach behind our interior and construction delivery in Qatar.",
+      "canonical": "https://www.ozonefitout.com/about",
+      "ogUrl": "https://www.ozonefitout.com/about",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/services",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Our capabilities.",
+          "size": "80px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out, Construction, MEP & Engineering Services | OZONE",
+      "description": "Explore OZONE's four coordinated disciplines in Qatar: interior fit-out, contracting and construction, MEP services, and engineering consultancy and design.",
+      "canonical": "https://www.ozonefitout.com/services",
+      "ogUrl": "https://www.ozonefitout.com/services",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/services/interior-fit-out",
+      "status": 200,
+      "headings": [
+        {
+          "text": "From empty space to experience.",
+          "size": "80px"
+        },
+        {
+          "text": "One space. Every visible layer.",
+          "size": "57.92px"
+        },
+        {
+          "text": "Make the space work.",
+          "size": "57.92px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Interior Fit-Out Services in Doha, Qatar | OZONE",
+      "description": "Office, retail, hospitality and residential interior fit-out in Qatar. OZONE coordinates joinery, ceilings, partitions, flooring, finishes and specialist trades.",
+      "canonical": "https://www.ozonefitout.com/services/interior-fit-out",
+      "ogUrl": "https://www.ozonefitout.com/services/interior-fit-out",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/services/contracting-construction",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Building the framework.",
+          "size": "80px"
+        },
+        {
+          "text": "General contracting",
+          "size": "38.88px"
+        },
+        {
+          "text": "Design and build solutions",
+          "size": "38.88px"
+        },
+        {
+          "text": "Civil and structural construction",
+          "size": "38.88px"
+        },
+        {
+          "text": "Commercial and residential developments",
+          "size": "38.88px"
+        },
+        {
+          "text": "Building renovation and refurbishment",
+          "size": "38.88px"
+        },
+        {
+          "text": "Concrete and finishing works",
+          "size": "38.88px"
+        },
+        {
+          "text": "Infrastructure and external works",
+          "size": "38.88px"
+        },
+        {
+          "text": "Build with control.",
+          "size": "57.92px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Contracting & Construction Services in Qatar | OZONE",
+      "description": "OZONE provides general contracting, design and build, civil works, renovation and refurbishment in Qatar, with coordinated site delivery and quality control.",
+      "canonical": "https://www.ozonefitout.com/services/contracting-construction",
+      "ogUrl": "https://www.ozonefitout.com/services/contracting-construction",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/services/mep",
+      "status": 200,
+      "headings": [
+        {
+          "text": "The systems behind the space.",
+          "size": "80px"
+        },
+        {
+          "text": "Performance is designed in.",
+          "size": "57.92px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "MEP Services in Doha, Qatar | OZONE",
+      "description": "Mechanical, electrical and plumbing services in Qatar: HVAC, lighting, fire protection, ELV, testing and commissioning coordinated by OZONE.",
+      "canonical": "https://www.ozonefitout.com/services/mep",
+      "ogUrl": "https://www.ozonefitout.com/services/mep",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/services/engineering",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Where vision becomes buildable.",
+          "size": "80px"
+        },
+        {
+          "text": "Resolve before site.",
+          "size": "57.92px"
+        },
+        {
+          "text": "Design for delivery.",
+          "size": "57.92px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Engineering Consultancy & Design in Qatar | OZONE",
+      "description": "OZONE engineering consultancy in Qatar covers architectural, structural and MEP design, BIM coordination, shop drawings, project planning and cost consultancy.",
+      "canonical": "https://www.ozonefitout.com/services/engineering",
+      "ogUrl": "https://www.ozonefitout.com/services/engineering",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 3,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/projects",
+      "status": 200,
+      "headings": [
+        {
+          "text": "The work.",
+          "size": "80px"
+        },
+        {
+          "text": "Work across Qatar",
+          "size": "57.92px"
+        },
+        {
+          "text": "Qatar Rail",
+          "size": "28.96px"
+        },
+        {
+          "text": "Maestro Medical Centre",
+          "size": "28.96px"
+        },
+        {
+          "text": "Apparel Group Head Office",
+          "size": "28.96px"
+        },
+        {
+          "text": "360 Play - Mall of Qatar",
+          "size": "28.96px"
+        },
+        {
+          "text": "Tim Hortons",
+          "size": "28.96px"
+        },
+        {
+          "text": "Karak Stop",
+          "size": "28.96px"
+        },
+        {
+          "text": "Camel Café",
+          "size": "28.96px"
+        },
+        {
+          "text": "Malabar Gold & Diamonds",
+          "size": "28.96px"
+        },
+        {
+          "text": "Jawhara Jewellery",
+          "size": "28.96px"
+        },
+        {
+          "text": "Le Coiffeur",
+          "size": "28.96px"
+        },
+        {
+          "text": "Phone Booth",
+          "size": "28.96px"
+        },
+        {
+          "text": "Al Anees Electronics",
+          "size": "28.96px"
+        },
+        {
+          "text": "Lavender",
+          "size": "28.96px"
+        },
+        {
+          "text": "VLCC",
+          "size": "28.96px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out Projects & Portfolio in Qatar | OZONE",
+      "description": "Explore the OZONE project portfolio, including Qatar Rail, Maestro Medical Centre and Apparel Group Head Office, plus retail, F&B and commercial references.",
+      "canonical": "https://www.ozonefitout.com/projects",
+      "ogUrl": "https://www.ozonefitout.com/projects",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/projects/qatar-rail",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Qatar Rail.",
+          "size": "80px"
+        },
+        {
+          "text": "Built for movement.",
+          "size": "57.92px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Qatar Rail | Interior Fit-Out Project | OZONE",
+      "description": "Explore OZONE's Qatar Rail interior fit-out portfolio in Doha, Qatar. View complete project photographs and architectural details in the project gallery.",
+      "canonical": "https://www.ozonefitout.com/projects/qatar-rail",
+      "ogUrl": "https://www.ozonefitout.com/projects/qatar-rail",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/projects/maestro",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Maestro Medical Centre.",
+          "size": "80px"
+        },
+        {
+          "text": "Quiet luxury. Exact delivery.",
+          "size": "57.92px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Maestro Medical Centre | Healthcare Fit-Out | OZONE",
+      "description": "View Maestro Medical Centre in the OZONE healthcare portfolio in Doha, Qatar. Explore the complete interior composition and coordinated approach to clinical spaces.",
+      "canonical": "https://www.ozonefitout.com/projects/maestro",
+      "ogUrl": "https://www.ozonefitout.com/projects/maestro",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/projects/apparel-group",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Apparel Group Head Office.",
+          "size": "80px"
+        },
+        {
+          "text": "A workspace designed to perform.",
+          "size": "57.92px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Apparel Group Head Office | Corporate Fit-Out | OZONE",
+      "description": "Explore Apparel Group Head Office in OZONE's corporate fit-out portfolio in Doha, Qatar. View workplace interiors, finishes and the complete project composition.",
+      "canonical": "https://www.ozonefitout.com/projects/apparel-group",
+      "ogUrl": "https://www.ozonefitout.com/projects/apparel-group",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/clients",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Trust built over time.",
+          "size": "80px"
+        },
+        {
+          "text": "Working relationships made visible.",
+          "size": "57.92px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Clients & Portfolio References in Qatar | OZONE",
+      "description": "Explore clients and portfolio references listed in the OZONE company profile, spanning transit, aviation, healthcare, retail, hospitality and corporate spaces.",
+      "canonical": "https://www.ozonefitout.com/clients",
+      "ogUrl": "https://www.ozonefitout.com/clients",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/process",
+      "status": 200,
+      "headings": [
+        {
+          "text": "From plan to place.",
+          "size": "80px"
+        },
+        {
+          "text": "Planning",
+          "size": "57.92px"
+        },
+        {
+          "text": "Material management",
+          "size": "57.92px"
+        },
+        {
+          "text": "Installation",
+          "size": "57.92px"
+        },
+        {
+          "text": "Quality control",
+          "size": "57.92px"
+        },
+        {
+          "text": "Final inspection",
+          "size": "57.92px"
+        },
+        {
+          "text": "Handover",
+          "size": "57.92px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Our Fit-Out & Construction Delivery Process | OZONE",
+      "description": "Follow OZONE's project delivery process: planning and approvals, material management, installation, quality checks, inspection, testing and handover.",
+      "canonical": "https://www.ozonefitout.com/process",
+      "ogUrl": "https://www.ozonefitout.com/process",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/quality-safety",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Built right.",
+          "size": "80px"
+        },
+        {
+          "text": "9001:2015",
+          "size": "57.92px"
+        },
+        {
+          "text": "Check the work while it is work.",
+          "size": "57.92px"
+        },
+        {
+          "text": "Control before action.",
+          "size": "57.92px"
+        },
+        {
+          "text": "Precision is a process.",
+          "size": "57.92px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Quality Management & Site Safety | OZONE",
+      "description": "Learn about OZONE's ISO 9001:2015 quality management, site safety practices, material controls, inspections and accountable project handover.",
+      "canonical": "https://www.ozonefitout.com/quality-safety",
+      "ogUrl": "https://www.ozonefitout.com/quality-safety",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/sectors",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Different spaces. Specific demands.",
+          "size": "80px"
+        },
+        {
+          "text": "Transit & Aviation",
+          "size": "57.92px"
+        },
+        {
+          "text": "Healthcare",
+          "size": "57.92px"
+        },
+        {
+          "text": "Corporate & Commercial",
+          "size": "57.92px"
+        },
+        {
+          "text": "Retail & F&B",
+          "size": "57.92px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out Sectors in Qatar | OZONE",
+      "description": "OZONE's sector experience covers transit and aviation, healthcare, corporate and commercial offices, retail and F&B interiors across Qatar.",
+      "canonical": "https://www.ozonefitout.com/sectors",
+      "ogUrl": "https://www.ozonefitout.com/sectors",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/insights",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Useful knowledge from the work.",
+          "size": "80px"
+        },
+        {
+          "text": "Planning a commercial fit-out before site mobilisation",
+          "size": "28.96px"
+        },
+        {
+          "text": "Why MEP coordination must happen before the ceiling closes",
+          "size": "28.96px"
+        },
+        {
+          "text": "What a clean project handover should contain",
+          "size": "28.96px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Fit-Out Planning, MEP & Handover Guides | OZONE",
+      "description": "Practical OZONE guidance on commercial fit-out planning, MEP coordination before ceiling closure, and the records needed for a complete project handover.",
+      "canonical": "https://www.ozonefitout.com/insights",
+      "ogUrl": "https://www.ozonefitout.com/insights",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/contact",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Have a space in mind?",
+          "size": "80px"
+        },
+        {
+          "text": "Talk directly to OZONE.",
+          "size": "57.92px"
+        },
+        {
+          "text": "Start with the essentials.",
+          "size": "57.92px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Contact OZONE in Doha | Project Enquiries | OZONE",
+      "description": "Discuss your fit-out, construction, MEP or engineering project with OZONE in Doha. Call +974 3330 7095 or prepare a project enquiry through WhatsApp.",
+      "canonical": "https://www.ozonefitout.com/contact",
+      "ogUrl": "https://www.ozonefitout.com/contact",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    },
+    {
+      "width": 1440,
+      "route": "/privacy",
+      "status": 200,
+      "headings": [
+        {
+          "text": "Your project details.",
+          "size": "80px"
+        },
+        {
+          "text": "Project enquiries",
+          "size": "25.6px"
+        },
+        {
+          "text": "After you contact us",
+          "size": "25.6px"
+        },
+        {
+          "text": "Website requests and external services",
+          "size": "25.6px"
+        },
+        {
+          "text": "Contact",
+          "size": "25.6px"
+        }
+      ],
+      "heroClipped": false,
+      "title": "Website Privacy Information | OZONE",
+      "description": "How the OZONE website handles project enquiry details, WhatsApp links, third-party images and technical requests. Contact OZONE for privacy questions.",
+      "canonical": "https://www.ozonefitout.com/privacy",
+      "ogUrl": "https://www.ozonefitout.com/privacy",
+      "ogImage": "https://www.ozonefitout.com/social/ozone-share.png",
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "outliers": [],
+      "schemas": 2,
+      "hasBreadcrumb": true
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "railImageDimensions": [
+    {
+      "width": 1280,
+      "height": 960,
+      "fit": "cover",
+      "canvasRatio": 1.3333333333333333,
+      "imageRatio": 1.3333333333333333,
+      "filled": true
+    },
+    {
+      "width": 963,
+      "height": 1280,
+      "fit": "cover",
+      "canvasRatio": 0.7523310023310024,
+      "imageRatio": 0.75234375,
+      "filled": true
+    },
+    {
+      "width": 963,
+      "height": 1280,
+      "fit": "cover",
+      "canvasRatio": 0.7523310023310024,
+      "imageRatio": 0.75234375,
+      "filled": true
+    },
+    {
+      "width": 963,
+      "height": 1280,
+      "fit": "cover",
+      "canvasRatio": 0.7523310023310024,
+      "imageRatio": 0.75234375,
+      "filled": true
+    },
+    {
+      "width": 963,
+      "height": 1280,
+      "fit": "cover",
+      "canvasRatio": 0.7523310023310024,
+      "imageRatio": 0.75234375,
+      "filled": true
+    },
+    {
+      "width": 963,
+      "height": 1280,
+      "fit": "cover",
+      "canvasRatio": 0.7523310023310024,
+      "imageRatio": 0.75234375,
+      "filled": true
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "fit": "cover",
+      "canvasRatio": 0.7523310023310024,
+      "imageRatio": 0.75,
+      "filled": true
+    },
+    {
+      "width": 960,
+      "height": 1280,
+      "fit": "cover",
+      "canvasRatio": 0.75,
+      "imageRatio": 0.75,
+      "filled": true
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "fit": "cover",
+      "canvasRatio": 1.3333333333333333,
+      "imageRatio": 1.3333333333333333,
+      "filled": true
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "fit": "cover",
+      "canvasRatio": 1.3333333333333333,
+      "imageRatio": 1.3333333333333333,
+      "filled": true
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "fit": "cover",
+      "canvasRatio": 1.3333333333333333,
+      "imageRatio": 1.3333333333333333,
+      "filled": true
+    },
+    {
+      "width": 1280,
+      "height": 960,
+      "fit": "cover",
+      "canvasRatio": 1.3333333333333333,
+      "imageRatio": 1.3333333333333333,
+      "filled": true
+    },
+    {
+      "width": 1048,
+      "height": 1280,
+      "fit": "cover",
+      "canvasRatio": 0.8187733021419694,
+      "imageRatio": 0.81875,
+      "filled": true
+    },
+    {
+      "width": 1048,
+      "height": 1280,
+      "fit": "cover",
+      "canvasRatio": 0.8187733021419694,
+      "imageRatio": 0.81875,
+      "filled": true
+    },
+    {
+      "width": 1280,
+      "height": 1110,
+      "fit": "cover",
+      "canvasRatio": 1.1531531531531531,
+      "imageRatio": 1.1531531531531531,
+      "filled": true
+    },
+    {
+      "width": 1280,
+      "height": 704,
+      "fit": "cover",
+      "canvasRatio": 1.8181818181818181,
+      "imageRatio": 1.8181818181818181,
+      "filled": true
+    },
+    {
+      "width": 1280,
+      "height": 1278,
+      "fit": "cover",
+      "canvasRatio": 1.001564945226917,
+      "imageRatio": 1.001564945226917,
+      "filled": true
+    },
+    {
+      "width": 620,
+      "height": 355,
+      "fit": "cover",
+      "canvasRatio": 1.746588693957115,
+      "imageRatio": 1.7464788732394365,
+      "filled": true
+    }
+  ],
+  "interactionChecks": [
+    "selected-project switching",
+    "thumbnail selection without arrow toolbar",
+    "adaptive canvas",
+    "keyboard",
+    "wrapping",
+    "all 18 photographs",
+    "reduced motion",
+    "sector filters",
+    "mobile menu",
+    "form validation",
+    "WhatsApp payload intercepted",
+    "404 status and noindex",
+    "sitemap",
+    "robots",
+    "social image"
+  ]
+}

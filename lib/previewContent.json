@@ -1,0 +1,438 @@
+{
+  "clients": [
+    {
+      "name": "Adidas",
+      "slug": "adidas",
+      "website_url": "https://www.adidas.com/",
+      "logo_url": "/preview/client-adidas.webp"
+    },
+    {
+      "name": "Qatar Rail",
+      "slug": "qatar-rail",
+      "website_url": "",
+      "logo_url": "/preview/client-qatar-rail.webp"
+    },
+    {
+      "name": "Sports Corner",
+      "slug": "sports-corner",
+      "website_url": "",
+      "logo_url": "/preview/client-sports-corner.webp"
+    },
+    {
+      "name": "MRNM Fashion",
+      "slug": "mrnm-fashion",
+      "website_url": "",
+      "logo_url": "/preview/client-mrnm-fashion.webp"
+    },
+    {
+      "name": "Tawar Mall",
+      "slug": "tawar-mall",
+      "website_url": "",
+      "logo_url": "/preview/client-tawar-mall.webp"
+    },
+    {
+      "name": "Hamad International Airport",
+      "slug": "hamad-international-airport",
+      "website_url": "",
+      "logo_url": "/preview/client-hamad-international-airport.webp"
+    },
+    {
+      "name": "COSMO",
+      "slug": "cosmo",
+      "website_url": "",
+      "logo_url": "/preview/client-cosmo.webp"
+    },
+    {
+      "name": "Hamad Medical Corporation",
+      "slug": "hamad-medical-corporation",
+      "website_url": "",
+      "logo_url": "/preview/client-hamad-medical-corporation.webp"
+    },
+    {
+      "name": "Troy Engineering W.L.L.",
+      "slug": "troy-engineering-wll",
+      "website_url": "",
+      "logo_url": "/preview/client-troy-engineering-wll.webp"
+    },
+    {
+      "name": "Puma",
+      "slug": "puma",
+      "website_url": "",
+      "logo_url": "/preview/client-puma.webp"
+    },
+    {
+      "name": "LC Waikiki",
+      "slug": "lc-waikiki",
+      "website_url": "",
+      "logo_url": "/preview/client-lc-waikiki.webp"
+    },
+    {
+      "name": "Tim Hortons",
+      "slug": "tim-hortons",
+      "website_url": "",
+      "logo_url": "/preview/client-tim-hortons.webp"
+    },
+    {
+      "name": "Juicy Couture",
+      "slug": "juicy-couture",
+      "website_url": "",
+      "logo_url": "/preview/client-juicy-couture.webp"
+    },
+    {
+      "name": "Malabar Gold & Diamonds",
+      "slug": "malabar-gold-diamonds",
+      "website_url": "",
+      "logo_url": "/preview/client-malabar-gold-diamonds.webp"
+    },
+    {
+      "name": "Rizzani de Eccher",
+      "slug": "rizzani-de-eccher",
+      "website_url": "",
+      "logo_url": "/preview/client-rizzani-de-eccher.webp"
+    },
+    {
+      "name": "Call It Spring",
+      "slug": "call-it-spring",
+      "website_url": "",
+      "logo_url": "/preview/client-call-it-spring.webp"
+    },
+    {
+      "name": "Athlete's Co",
+      "slug": "athletes-co",
+      "website_url": "",
+      "logo_url": "/preview/client-athletes-co.webp"
+    },
+    {
+      "name": "Apparel Group",
+      "slug": "apparel-group",
+      "website_url": "",
+      "logo_url": "/preview/client-apparel-group.webp"
+    },
+    {
+      "name": "VLCC",
+      "slug": "vlcc",
+      "website_url": "",
+      "logo_url": "/preview/client-vlcc.webp"
+    },
+    {
+      "name": "Karak Stop",
+      "slug": "karak-stop",
+      "website_url": "",
+      "logo_url": "/preview/client-karak-stop.webp"
+    },
+    {
+      "name": "Ezdan Holding",
+      "slug": "ezdan-holding",
+      "website_url": "",
+      "logo_url": "/preview/client-ezdan-holding.webp"
+    },
+    {
+      "name": "Jawhara Jewellery",
+      "slug": "jawhara-jewellery",
+      "website_url": "",
+      "logo_url": "/preview/client-jawhara-jewellery.webp"
+    },
+    {
+      "name": "Al Anees Electronics",
+      "slug": "al-anees-electronics",
+      "website_url": "",
+      "logo_url": "/preview/client-al-anees-electronics.webp"
+    },
+    {
+      "name": "Beema",
+      "slug": "beema",
+      "website_url": "",
+      "logo_url": "/preview/client-beema.webp"
+    },
+    {
+      "name": "Trouvay & Cauvin",
+      "slug": "trouvay-cauvin",
+      "website_url": "",
+      "logo_url": "/preview/client-trouvay-cauvin.webp"
+    },
+    {
+      "name": "Babies & More",
+      "slug": "babies-more",
+      "website_url": "",
+      "logo_url": "/preview/client-babies-more.webp"
+    },
+    {
+      "name": "Biscoti",
+      "slug": "biscoti",
+      "website_url": "",
+      "logo_url": "/preview/client-biscoti.webp"
+    },
+    {
+      "name": "360 Play",
+      "slug": "360-play",
+      "website_url": "",
+      "logo_url": "/preview/client-360-play.webp"
+    },
+    {
+      "name": "BESIX",
+      "slug": "besix",
+      "website_url": "",
+      "logo_url": "/preview/client-besix.webp"
+    },
+    {
+      "name": "Qatar Optics",
+      "slug": "qatar-optics",
+      "website_url": "",
+      "logo_url": null
+    },
+    {
+      "name": "Bab Ishtar Group",
+      "slug": "bab-ishtar-group",
+      "website_url": "",
+      "logo_url": null
+    },
+    {
+      "name": "Doha Oasis",
+      "slug": "doha-oasis",
+      "website_url": "",
+      "logo_url": null
+    },
+    {
+      "name": "Salam",
+      "slug": "salam",
+      "website_url": "",
+      "logo_url": null
+    },
+    {
+      "name": "Salam Library",
+      "slug": "salam-library",
+      "website_url": "",
+      "logo_url": null
+    },
+    {
+      "name": "Makani",
+      "slug": "makani",
+      "website_url": "",
+      "logo_url": null
+    },
+    {
+      "name": "Maestro Medical Centre",
+      "slug": "maestro-medical-centre",
+      "website_url": "",
+      "logo_url": null
+    },
+    {
+      "name": "Camel Café",
+      "slug": "camel-cafe",
+      "website_url": "",
+      "logo_url": null
+    },
+    {
+      "name": "Game or Play Qatar",
+      "slug": "game-or-play-qatar",
+      "website_url": "",
+      "logo_url": null
+    },
+    {
+      "name": "Phone Booth",
+      "slug": "phone-booth",
+      "website_url": "",
+      "logo_url": null
+    },
+    {
+      "name": "Le Coiffeur",
+      "slug": "le-coiffeur",
+      "website_url": "",
+      "logo_url": null
+    },
+    {
+      "name": "Lavender Dubai",
+      "slug": "lavender-dubai",
+      "website_url": "",
+      "logo_url": null
+    }
+  ],
+  "projects": {
+    "qatar-rail": [
+      {
+        "image_url": "/preview/qatar-rail-01.webp",
+        "alt_text": "Qatar Rail station escalators beneath curved arches with integrated linear lighting",
+        "caption": "",
+        "is_cover": true,
+        "display_order": 0,
+        "source_name": "c13d3dfb99f94518b9041c10a0843df0.jpg",
+        "thumbnail_url": "/preview/qatar-rail-01-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-02.webp",
+        "alt_text": "Qatar Rail station concourse with sculpted ceiling, illuminated signs, and red wall panels",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 1,
+        "source_name": "3431d1abab3644168002ca1540ff0b13.jpg",
+        "thumbnail_url": "/preview/qatar-rail-02-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-03.webp",
+        "alt_text": "Qatar Rail station concourse with sculpted ceiling, illuminated signs, and red wall panels",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 2,
+        "source_name": "64a1193fa7d9497387c66612ce16cf4b.jpg",
+        "thumbnail_url": "/preview/qatar-rail-03-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-04.webp",
+        "alt_text": "Qatar Rail station concourse with sculpted ceiling, illuminated signs, and red wall panels",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 3,
+        "source_name": "ca449fb58c414b9b907b7ff97eac4d72.jpg",
+        "thumbnail_url": "/preview/qatar-rail-04-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-05.webp",
+        "alt_text": "Qatar Rail station concourse with sculpted ceiling, illuminated signs, and red wall panels",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 4,
+        "source_name": "f61ff936fe8f448ea0739dfe9440233c.jpg",
+        "thumbnail_url": "/preview/qatar-rail-05-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-06.webp",
+        "alt_text": "Qatar Rail station concourse with sculpted ceiling, illuminated signs, and red wall panels",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 5,
+        "source_name": "5fd82f1ea13c43a9b592ee780ca963ef.jpg",
+        "thumbnail_url": "/preview/qatar-rail-06-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-07.webp",
+        "alt_text": "Qatar Rail station escalators beneath curved arches with integrated linear lighting",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 6,
+        "source_name": "e4f7cdbac82e4db3bdcfe0af468e9f5e.jpg",
+        "thumbnail_url": "/preview/qatar-rail-07-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-08.webp",
+        "alt_text": "Qatar Rail station escalators beneath curved arches with integrated linear lighting",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 7,
+        "source_name": "6dd04c78c8964d88ac4ecfba9143299d.jpg",
+        "thumbnail_url": "/preview/qatar-rail-08-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-09.webp",
+        "alt_text": "Qatar Rail station escalators beneath curved arches with integrated linear lighting",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 8,
+        "source_name": "2cdaa3d17aef4d1b89281310680ef9ee.jpg",
+        "thumbnail_url": "/preview/qatar-rail-09-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-10.webp",
+        "alt_text": "Qatar Rail station escalators beneath curved arches with integrated linear lighting",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 9,
+        "source_name": "585d7674811444599578a6815af29b05.jpg",
+        "thumbnail_url": "/preview/qatar-rail-10-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-11.webp",
+        "alt_text": "Qatar Rail station escalators beneath curved arches with integrated linear lighting",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 10,
+        "source_name": "ed7af076af444470b97800db863cce6d.jpg",
+        "thumbnail_url": "/preview/qatar-rail-11-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-12.webp",
+        "alt_text": "Qatar Rail station escalators beneath curved arches with integrated linear lighting",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 11,
+        "source_name": "026242efec3f436b85f4dbeb5b400b11.jpg",
+        "thumbnail_url": "/preview/qatar-rail-12-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-13.webp",
+        "alt_text": "Qatar Rail station ceiling panels with curved forms and integrated lighting",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 12,
+        "source_name": "6520537431894c6daf21564cdc5fe203.jpg",
+        "thumbnail_url": "/preview/qatar-rail-13-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-14.webp",
+        "alt_text": "Qatar Rail station ceiling panels with curved forms and integrated lighting",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 13,
+        "source_name": "4ddf0ee5d4304aed84d99cd6ad6bf769.jpg",
+        "thumbnail_url": "/preview/qatar-rail-14-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-15.webp",
+        "alt_text": "Qatar Rail station ceiling panels with curved forms and integrated lighting",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 14,
+        "source_name": "a1b78fbc86514a3aa4d468063a561578.jpg",
+        "thumbnail_url": "/preview/qatar-rail-15-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-16.webp",
+        "alt_text": "Qatar Rail station ceiling panels with curved forms and integrated lighting",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 15,
+        "source_name": "718b68a0c2a940b8836ad44c5d8138db.jpg",
+        "thumbnail_url": "/preview/qatar-rail-16-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-17.webp",
+        "alt_text": "Qatar Rail station ceiling panels with curved forms and integrated lighting",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 16,
+        "source_name": "eb945393cc354ae3bfdaeb6036fee588.jpg",
+        "thumbnail_url": "/preview/qatar-rail-17-thumb.webp"
+      },
+      {
+        "image_url": "/preview/qatar-rail-18.webp",
+        "alt_text": "Qatar Rail station exterior with curved entrances and a glazed facade",
+        "caption": "",
+        "is_cover": false,
+        "display_order": 17,
+        "source_name": "9c86e122406948889eda27e727c75ab3.jpg",
+        "thumbnail_url": "/preview/qatar-rail-18-thumb.webp"
+      }
+    ],
+    "maestro": [
+      {
+        "image_url": "/preview/maestro-01.webp",
+        "alt_text": "OZONE company profile project composition",
+        "caption": "OZONE company profile · Doha, Qatar",
+        "is_cover": true,
+        "display_order": 0,
+        "source_name": "maestro-medical-centre.jpg",
+        "thumbnail_url": "/preview/maestro-01-thumb.webp"
+      }
+    ],
+    "apparel-group": [
+      {
+        "image_url": "/preview/apparel-group-01.webp",
+        "alt_text": "OZONE company profile project composition",
+        "caption": "OZONE company profile · Doha, Qatar",
+        "is_cover": true,
+        "display_order": 0,
+        "source_name": "apparel-head-office.jpg",
+        "thumbnail_url": "/preview/apparel-group-01-thumb.webp"
+      }
+    ]
+  }
+}

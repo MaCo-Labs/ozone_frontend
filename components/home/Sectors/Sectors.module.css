@@ -1,0 +1,56 @@
+.sectors {
+  background: var(--stone);
+  color: var(--charcoal);
+  padding: var(--space-6) var(--space-4);
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  margin: 0 0 var(--space-5);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+}
+
+.item {
+  border-top: 1px solid rgba(23, 24, 26, 0.2);
+  padding-top: var(--space-2);
+}
+
+.name {
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin: 0 0 var(--space-1);
+}
+
+.reference {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  opacity: 0.75;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: var(--space-3);
+  }
+}
+
+@media (max-width: 500px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+}

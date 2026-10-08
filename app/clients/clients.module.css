@@ -1,0 +1,131 @@
+.clients {
+  padding: var(--section-gap) var(--page-pad);
+  background: var(--paper);
+}
+
+.heading,
+.grid {
+  width: 100%;
+  max-width: var(--content-max);
+  margin-inline: auto;
+}
+
+.heading {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1.5fr;
+  gap: 32px;
+  align-items: end;
+  margin-bottom: 40px;
+}
+
+.heading span {
+  color: var(--teal-dark);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+}
+
+.heading h2 {
+  max-width: 24ch;
+  margin: 0;
+  font-size: var(--type-section);
+  line-height: var(--heading-leading);
+  letter-spacing: var(--heading-tracking);
+  text-transform: uppercase;
+}
+
+.heading p {
+  max-width: 36ch;
+  margin: 0;
+  color: var(--steel);
+  font-size: .75rem;
+  line-height: 1.65;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  list-style: none;
+  margin-block: 0;
+  padding: 0;
+  border-top: 1px solid var(--line-dark);
+  border-left: 1px solid var(--line-dark);
+}
+
+.grid li {
+  display: grid;
+  place-items: center;
+  min-height: clamp(112px, 9vw, 144px);
+  padding: 28px;
+  border-right: 1px solid var(--line-dark);
+  border-bottom: 1px solid var(--line-dark);
+  color: #343b39;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+.logo {
+  width: min(144px, 100%);
+  max-height: 64px;
+  object-fit: contain;
+}
+
+.grid li:hover,
+.grid li:focus-within {
+  background: var(--mineral);
+  color: var(--ink);
+}
+
+.grid li a {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 64px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.grid li a:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 5px;
+}
+
+@media (max-width: 900px) {
+  .heading {
+    grid-template-columns: 1fr;
+  }
+
+  .heading p {
+    margin-top: 8px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .clients {
+    padding-top: 86px;
+  }
+
+  .heading h2 {
+    max-width: 100%;
+    font-size: var(--type-section);
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .grid li {
+    min-height: 96px;
+    padding: 18px 12px;
+    font-size: clamp(1.05rem, 5.4vw, 1.45rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .grid li {
+    transition: none;
+  }
+}

@@ -1,0 +1,53 @@
+.journey { position: relative; height: 390vh; background: #dfe3df; }
+.sticky { position: sticky; top: 0; height: 100svh; overflow: hidden; }
+.heading { position: absolute; z-index: 3; top: clamp(92px, 11vh, 132px); left: var(--page-pad); display: grid; grid-template-columns: minmax(130px, 1fr) 4fr; gap: 28px; align-items: start; width: calc(100% - 2 * var(--page-pad)); pointer-events: none; }
+.heading span { color: var(--teal-dark); font-size: .64rem; font-weight: 700; letter-spacing: .16em; }
+.heading h2 { max-width: 24ch; margin: 0; font-size: var(--type-section); line-height: var(--heading-leading); letter-spacing: var(--heading-tracking); text-transform: uppercase; }
+.track { position: absolute; inset: 0; display: flex; width: 400vw; will-change: transform; }
+.path { position: absolute; z-index: 2; top: 43%; left: 0; width: 400vw; height: 18vh; overflow: visible; pointer-events: none; }
+.path path:first-child { fill: none; stroke: rgba(23,28,27,.14); stroke-width: 3; }
+.path path:last-child { fill: none; stroke: var(--teal-dark); stroke-width: 5; stroke-linecap: round; }
+.mobilePath { display: none; }
+.stage { position: relative; width: 100vw; min-width: 100vw; height: 100%; display: grid; grid-template-columns: 48% 52%; align-items: end; padding: clamp(230px, 31vh, 330px) var(--page-pad) clamp(52px, 8vh, 90px); }
+.stageNumber { position: absolute; top: 49%; left: var(--page-pad); z-index: 3; display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: var(--teal); color: var(--ink); font-size: .64rem; font-weight: 700; }
+.image { position: relative; width: min(43vw, 690px); height: min(48vh, 510px); overflow: hidden; }
+.image img { object-fit: cover; filter: saturate(.66) contrast(1.04); }
+.stage:nth-of-type(even) .image { width: min(38vw, 610px); margin-left: 6vw; }
+.stageCopy { align-self: end; max-width: 620px; padding: 0 3vw 4vh 6vw; }
+.stageCopy h3 { margin: 0 0 25px; font-size: var(--type-row); line-height: var(--heading-leading); letter-spacing: var(--heading-tracking); text-transform: uppercase; }
+.stageCopy strong { display: block; margin-bottom: 14px; color: var(--teal-dark); font-size: .66rem; letter-spacing: .12em; text-transform: uppercase; }
+.stageCopy p { max-width: 48ch; margin: 0; font-size: .78rem; line-height: 1.7; }
+@media (max-width: 800px) {
+  .journey { height: auto; }
+  .sticky { position: relative; height: auto; overflow: visible; padding: 90px var(--page-pad); }
+  .heading { position: static; display: block; width: auto; margin-bottom: 40px; }
+  .heading h2 { margin-top: 28px; font-size: var(--type-section); }
+  .track { position: relative; display: block; width: auto; transform: none !important; }
+  .path { display: none; }
+  .mobilePath { position: absolute; z-index: 2; top: 22px; bottom: 82px; left: 0; display: block; width: 80px; height: calc(100% - 104px); overflow: visible; pointer-events: none; }
+  .mobilePath path:first-child { fill: none; stroke: rgba(23,28,27,.18); stroke-width: 2; }
+  .mobilePath path:last-child { fill: none; stroke: var(--teal-dark); stroke-width: 3; stroke-linecap: round; }
+  .stage { width: auto; min-width: 0; height: auto; display: block; padding: 0 0 82px 64px; }
+  .stageNumber { top: 0; left: 0; width: 40px; height: 40px; border: 1px solid var(--teal-dark); }
+  .image, .stage:nth-of-type(even) .image { width: 100%; height: auto; aspect-ratio: 4 / 3; margin: 0; }
+  .stageCopy { max-width: none; padding: 26px 0 0; }
+  .stageCopy h3 { max-width: 100%; font-size: var(--type-row); overflow-wrap: normal; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .journey { height: auto; }
+  .sticky { position: relative; height: auto; overflow: visible; padding: 100px var(--page-pad); }
+  .heading { position: static; margin-bottom: 40px; }
+  .track { position: static; display: grid; grid-template-columns: repeat(2, 1fr); gap: 70px 24px; width: auto; transform: none !important; }
+  .path { display: none; }
+  .mobilePath { display: none; }
+  .stage { width: auto; min-width: 0; height: auto; display: block; padding: 0; opacity: 1 !important; transform: none !important; }
+  .stageNumber { top: 12px; left: 12px; }
+  .image, .stage:nth-of-type(even) .image { width: 100%; height: auto; aspect-ratio: 4 / 3; margin: 0; }
+  .stageCopy { padding: 24px 0 0; }
+  .stageCopy h3 { font-size: var(--type-row); }
+}
+@media (max-width: 800px) and (prefers-reduced-motion: reduce) {
+  .track { grid-template-columns: 1fr; gap: 42px; }
+  .sticky { padding-block: 64px; }
+  .heading h2 { font-size: var(--type-section); }
+}

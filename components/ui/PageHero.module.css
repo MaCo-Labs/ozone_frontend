@@ -1,0 +1,121 @@
+.hero {
+  position: relative;
+  min-height: max(580px, 78svh);
+  display: block;
+  overflow: hidden;
+  background: var(--ink);
+  color: var(--mineral);
+  padding-top: 0;
+}
+
+.copy {
+  position: relative;
+  z-index: 2;
+  min-height: max(580px, 78svh);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: clamp(120px, 16vh, 180px) var(--page-pad) clamp(64px, 9vh, 108px);
+}
+
+.copy::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--page-pad) + 25%);
+  border-left: 1px solid var(--line-light);
+  opacity: 0.45;
+}
+
+.index {
+  position: relative;
+  z-index: 1;
+  width: max-content;
+  margin-bottom: 30px;
+  color: var(--teal);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  animation: pageCopyIn 320ms ease-out both;
+}
+
+.copy h1 {
+  position: relative;
+  z-index: 1;
+  max-width: 20ch;
+  margin: 0;
+  font-size: var(--type-page);
+  line-height: var(--heading-leading);
+  letter-spacing: var(--heading-tracking);
+  text-transform: uppercase;
+  text-wrap: balance;
+  animation: pageCopyIn 380ms 60ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.copy p {
+  position: relative;
+  z-index: 1;
+  max-width: 48ch;
+  margin: 42px 0 0;
+  color: var(--concrete);
+  font-size: clamp(0.95rem, 1.15vw, 1.12rem);
+  line-height: 1.65;
+  animation: pageCopyIn 340ms 100ms ease-out both;
+}
+
+.media {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(8,13,15,.9) 0%, rgba(8,13,15,.62) 42%, rgba(8,13,15,.08) 82%), linear-gradient(0deg, rgba(8,13,15,.58), transparent 55%); }
+
+.image {
+  object-fit: cover;
+  filter: saturate(0.78) contrast(1.04);
+  animation: pageImageIn 380ms ease-out both;
+}
+
+.caption {
+  z-index: 2;
+  position: absolute;
+  right: 20px;
+  bottom: 18px;
+  padding: 7px 9px;
+  background: rgba(16, 23, 25, 0.78);
+  color: var(--concrete);
+  font-size: 0.6rem;
+}
+
+@keyframes pageCopyIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pageImageIn {
+  from { opacity: 0; transform: scale(1.035); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@media (max-width: 820px) {
+  .hero {
+    min-height: max(580px, 82svh);
+  }
+
+  .copy {
+    min-height: max(580px, 82svh);
+    padding-top: 96px;
+  }
+
+  .copy h1 { max-width: min(20ch, 100%); font-size: var(--type-page); line-height: var(--heading-leading); overflow-wrap: normal; }
+  .copy p { margin-top: 28px; }
+  .media::after { background: linear-gradient(90deg, rgba(8,13,15,.82), rgba(8,13,15,.2)), linear-gradient(0deg, rgba(8,13,15,.72), transparent 64%); }
+}
+
+@media (max-width: 430px) {
+  .hero,
+  .copy { min-height: max(560px, 82svh); }
+  .copy { padding-top: calc(var(--header-height) + 24px); padding-bottom: 54px; }
+  .copy h1 { font-size: var(--type-page); }
+}

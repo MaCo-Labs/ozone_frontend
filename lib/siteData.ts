@@ -1,0 +1,220 @@
+export const CONTACT = {
+  email: "info@ozonefitout.com",
+  phones: ["+974 3330 7095", "+974 7755 1044"],
+  phoneHrefs: ["tel:+97433307095", "tel:+97477551044"],
+  address: "C.R. 15190, P.O. Box 22657, Doha, Qatar",
+};
+
+export const IMAGES = {
+  homeStandard: "/reference/photo-1541888946425-d81bb19240f5.webp",
+  homeContact: "/reference/photo-1647252262017-582a7dbb73d0.webp",
+  homePlan: "/reference/photo-1524758631624-e2822e304c36.webp",
+  homeDesign: "/reference/photo-1493397212122-2b85dda8106b.webp",
+  homeBuild: "/reference/photo-1503387762-592deb58ef4e.webp",
+  homeSpace: "/reference/photo-1497366754035-f200968a6e72.webp",
+  aboutHero: "/reference/photo-1518005020951-eccb494ad742.webp",
+  aboutInterior: "/reference/photo-1497366811353-6870744d04b2.webp",
+  aboutTeam: "/reference/photo-1556761175-b413da4baf72.webp",
+  clientsHero: "/reference/photo-1497215728101-856f4ea42174.webp",
+  contactHero: "/reference/photo-1551836022-d5d88e9218df.webp",
+  insightsHero: "/reference/photo-1552664730-d307ca884978.webp",
+  sectorsHero: "/reference/photo-1477959858617-67f85cf4f1df.webp",
+  qualityHero: "/reference/photo-1504917595217-d4dc5ebe6122.webp",
+  processHero: "/reference/photo-1542744173-8e7e53415bb0.webp",
+  processPlanning: "/reference/photo-1521737711867-e3b97375f902.webp",
+  processMaterials: "/reference/photo-1530124566582-a618bc2615dc.webp",
+  processInstallation: "/reference/photo-1581094794329-c8112a89af12.webp",
+  processQuality: "/reference/photo-1531834685032-c34bf0d84c77.webp",
+  processInspection: "/reference/photo-1589939705384-5185137a7f0f.webp",
+  processHandover: "/reference/photo-1487017159836-4e23ece2e4cf.webp",
+  qatarRailDetail: "/reference/photo-1544620347-c4fd4a3d5957.webp",
+  qatarRailStructure: "/reference/photo-1516939884455-1445c8652f83.webp",
+  qatarRailStation: "/reference/photo-1520105072000-f44fc083e508.webp",
+  maestroDetail: "/reference/photo-1519494026892-80bbd2d6fd0d.webp",
+  maestroCare: "/reference/photo-1516841273335-e39b37888115.webp",
+  apparelDetail: "/reference/photo-1497366216548-37526070297c.webp",
+  apparelMeeting: "/reference/photo-1497366858526-0766cadbe8fa.webp",
+  apparelWorkspace: "/reference/photo-1527192491265-7e15c55b1ed2.webp",
+};
+
+export const SERVICES = [
+  {
+    slug: "interior-fit-out",
+    code: "FO",
+    title: "Interior Fit-Out",
+    short: "Complete interiors shaped around how people move, work, buy, and gather.",
+    description:
+      "OZONE coordinates finishes, joinery, partitions, ceilings, flooring, fixtures, and specialist trades as one controlled fit-out package.",
+    image: "/reference/photo-1610374792793-f016b77ca51a.webp",
+    heroImage: "/reference/photo-1579487785973-74d2ca7abdd5.webp",
+    detailImage: "/reference/photo-1552566626-52f8b828add9.webp",
+    scope: [
+      "Corporate office fit-outs",
+      "Commercial and retail interiors",
+      "Hospitality and F&B fit-outs",
+      "Luxury residential interiors",
+      "Joinery and bespoke carpentry",
+      "Ceiling, partition and finishing works",
+      "Furniture, fixtures and equipment",
+      "Complete flooring solutions",
+    ],
+  },
+  {
+    slug: "contracting-construction",
+    code: "CC",
+    title: "Contracting & Construction",
+    short: "Disciplined site delivery from enabling works through final finish.",
+    description:
+      "A single project team manages civil, structural, renovation, and external works with clear sequencing and quality control.",
+    image: "/reference/photo-1487958449943-2429e8be8625.webp",
+    heroImage: "/reference/photo-1621905252507-b35492cc74b4.webp",
+    detailImage: "/reference/photo-1504307651254-35680f356dfd.webp",
+    scope: [
+      "General contracting",
+      "Design and build solutions",
+      "Civil and structural construction",
+      "Commercial and residential developments",
+      "Building renovation and refurbishment",
+      "Concrete and finishing works",
+      "Infrastructure and external works",
+    ],
+  },
+  {
+    slug: "mep-services",
+    code: "MEP",
+    title: "MEP Services",
+    short: "Coordinated building systems engineered for safe, reliable operation.",
+    description:
+      "Mechanical, electrical, plumbing, life-safety, and low-current systems are coordinated before installation and proven through testing and commissioning.",
+    image: "/reference/photo-1604328698692-f76ea9498e76.webp",
+    heroImage: "/reference/photo-1621905251189-08b45d6a269e.webp",
+    detailImage: "/reference/photo-1553877522-43269d4ea984.webp",
+    scope: [
+      "Mechanical engineering systems",
+      "Electrical power and lighting",
+      "Plumbing and public health engineering",
+      "Heating, ventilation and air conditioning",
+      "Fire protection and life-safety systems",
+      "Low current and ELV systems",
+      "Testing, commissioning and handover",
+      "Operation and maintenance support",
+    ],
+  },
+  {
+    slug: "engineering-consultancy",
+    code: "ENG",
+    title: "Engineering Consultancy & Design",
+    short: "Technical decisions resolved early, documented clearly, and built accurately.",
+    description:
+      "OZONE turns project intent into coordinated design information, shop drawings, BIM models, programmes, and cost plans that support delivery.",
+    image: "/reference/photo-1486406146926-c627a92ad1ab.webp",
+    heroImage: "/reference/photo-1431576901776-e539bd916ba2.webp",
+    detailImage: "/reference/photo-1511818966892-d7d671e672a2.webp",
+    scope: [
+      "Architectural design consultancy",
+      "Structural engineering solutions",
+      "MEP engineering design",
+      "BIM modelling and coordination",
+      "Technical design and shop drawings",
+      "Project planning and cost consultancy",
+      "Project management consultancy",
+    ],
+  },
+] as const;
+
+export const PROJECTS = [
+  { name: "Qatar Rail", sector: "Transit", image: "/brochure/qatar-rail.jpg", featured: true, source: "brochure" },
+  { name: "Maestro Medical Centre", sector: "Healthcare", image: "/brochure/maestro-medical-centre.jpg", featured: true, source: "brochure" },
+  { name: "Apparel Group Head Office", sector: "Corporate", image: "/brochure/apparel-head-office.jpg", featured: true, source: "brochure" },
+  { name: "360 Play - Mall of Qatar", sector: "Retail & Leisure", image: "/reference/photo-1555529669-e69e7aa0ba9a.webp", featured: true, source: "reference" },
+  { name: "Tim Hortons", sector: "F&B", image: "/reference/photo-1517248135467-4c7edcad34c4.webp", featured: true, source: "reference" },
+  { name: "Karak Stop", sector: "F&B", image: "/reference/photo-1550966871-3ed3cdb5ed0c.webp", featured: false, source: "reference" },
+  { name: "Camel Café", sector: "F&B", image: "/reference/photo-1559339352-11d035aa65de.webp", featured: false, source: "reference" },
+  { name: "Malabar Gold & Diamonds", sector: "Retail", image: "/reference/photo-1441986300917-64674bd600d8.webp", featured: true, source: "reference" },
+  { name: "Jawhara Jewellery", sector: "Retail", image: "/reference/photo-1515562141207-7a88fb7ce338.webp", featured: false, source: "reference" },
+  { name: "Le Coiffeur", sector: "Retail", image: "/reference/photo-1521590832167-7bcbfaa6381f.webp", featured: false, source: "reference" },
+  { name: "Phone Booth", sector: "Retail", image: "/reference/photo-1449247709967-d4461a6a6103.webp", featured: false, source: "reference" },
+  { name: "Al Anees Electronics", sector: "Retail", image: "/reference/photo-1556742049-0cfed4f6a45d.webp", featured: false, source: "reference" },
+  { name: "Lavender", sector: "Retail", image: "/reference/photo-1528698827591-e19ccd7bc23d.webp", featured: false, source: "reference" },
+  { name: "VLCC", sector: "Wellness", image: "/reference/photo-1538108149393-fbbd81895907.webp", featured: false, source: "reference" },
+] as const;
+
+export const CLIENTS = [
+  "Qatar Rail",
+  "Hamad International Airport",
+  "Tawar Mall",
+  "COSMO",
+  "Emax",
+  "Sports Corner",
+  "R&B",
+  "Puma",
+  "Pizza Hut",
+  "Adidas",
+  "Doha Clinic Hospital",
+  "Aldo",
+  "New Yorker",
+  "Dune London",
+  "GANT",
+  "Tim Hortons",
+  "Al-Futtaim",
+  "Calvin Klein",
+  "Skechers",
+  "Malabar Gold & Diamonds",
+] as const;
+
+export const SECTORS = [
+  {
+    title: "Transit & Aviation",
+    summary: "Durable, highly coordinated spaces designed around movement, security, and continuous operation.",
+    references: ["Qatar Rail", "Hamad International Airport"],
+    image: "/reference/photo-1531058020387-3be344556be6.webp",
+  },
+  {
+    title: "Healthcare",
+    summary: "Clinical environments where cleanability, services coordination, privacy, and patient experience work together.",
+    references: ["Maestro Dental Centre", "Doha Clinic Hospital"],
+    image: "/reference/photo-1584982751601-97dcc096659c.webp",
+  },
+  {
+    title: "Corporate & Commercial",
+    summary: "Workplaces built to express the organisation while supporting teams, technology, and day-to-day operations.",
+    references: ["Apparel Group Head Office", "Ezdan Holding"],
+    image: "/reference/photo-1541746972996-4e0b0f43e02a.webp",
+  },
+  {
+    title: "Retail & F&B",
+    summary: "Brand-led spaces delivered for opening day, with customer flow, visual impact, and operational detail resolved together.",
+    references: ["Tim Hortons", "Malabar Gold & Diamonds", "Karak Stop"],
+    image: "/reference/photo-1604719312566-8912e9227c6a.webp",
+  },
+] as const;
+
+export const PROCESS = [
+  {
+    title: "Planning & approvals",
+    text: "Site verification, shop drawings, material samples, and product documentation establish a clear, approved baseline.",
+  },
+  {
+    title: "Material management",
+    text: "Materials are inspected, protected, identified, and sequenced to arrive when the installation team needs them.",
+  },
+  {
+    title: "Installation & quality control",
+    text: "Approved information guides installation while continuous checks protect alignment, fit, and workmanship.",
+  },
+  {
+    title: "Inspection & handover",
+    text: "Systems are tested, finishes reviewed, snags closed, and documentation assembled for a clean handover.",
+  },
+] as const;
+
+export const TRUST_POINTS = [
+  "Experienced and skilled professionals",
+  "End-to-end project solutions",
+  "ISO 9001:2015 certified quality management",
+  "Safety-first work culture",
+  "Timely project delivery",
+  "High-quality materials and workmanship",
+  "Innovative and cost-effective solutions",
+  "Customer-centric approach",
+] as const;

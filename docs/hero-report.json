@@ -1,0 +1,208 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "javascriptEnabled": false,
+      "phase": "initial",
+      "lines": [
+        {
+          "text": "We build spaces",
+          "clipped": false,
+          "opacity": "1"
+        },
+        {
+          "text": "that work.",
+          "clipped": false,
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "javascriptEnabled": true,
+      "phase": "initial",
+      "lines": [
+        {
+          "text": "We build spaces",
+          "clipped": false,
+          "opacity": "1"
+        },
+        {
+          "text": "that work.",
+          "clipped": false,
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "javascriptEnabled": true,
+      "phase": "second",
+      "lines": [
+        {
+          "text": "We shape spaces",
+          "clipped": false,
+          "opacity": "1"
+        },
+        {
+          "text": "built to last.",
+          "clipped": false,
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "javascriptEnabled": false,
+      "phase": "initial",
+      "lines": [
+        {
+          "text": "We build spaces",
+          "clipped": false,
+          "opacity": "1"
+        },
+        {
+          "text": "that work.",
+          "clipped": false,
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "javascriptEnabled": true,
+      "phase": "initial",
+      "lines": [
+        {
+          "text": "We build spaces",
+          "clipped": false,
+          "opacity": "1"
+        },
+        {
+          "text": "that work.",
+          "clipped": false,
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "javascriptEnabled": true,
+      "phase": "second",
+      "lines": [
+        {
+          "text": "We shape spaces",
+          "clipped": false,
+          "opacity": "1"
+        },
+        {
+          "text": "built to last.",
+          "clipped": false,
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "javascriptEnabled": false,
+      "phase": "initial",
+      "lines": [
+        {
+          "text": "We build spaces",
+          "clipped": false,
+          "opacity": "1"
+        },
+        {
+          "text": "that work.",
+          "clipped": false,
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "javascriptEnabled": true,
+      "phase": "initial",
+      "lines": [
+        {
+          "text": "We build spaces",
+          "clipped": false,
+          "opacity": "1"
+        },
+        {
+          "text": "that work.",
+          "clipped": false,
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "javascriptEnabled": true,
+      "phase": "second",
+      "lines": [
+        {
+          "text": "We shape spaces",
+          "clipped": false,
+          "opacity": "1"
+        },
+        {
+          "text": "built to last.",
+          "clipped": false,
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "javascriptEnabled": false,
+      "phase": "initial",
+      "lines": [
+        {
+          "text": "We build spaces",
+          "clipped": false,
+          "opacity": "1"
+        },
+        {
+          "text": "that work.",
+          "clipped": false,
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "javascriptEnabled": true,
+      "phase": "initial",
+      "lines": [
+        {
+          "text": "We build spaces",
+          "clipped": false,
+          "opacity": "1"
+        },
+        {
+          "text": "that work.",
+          "clipped": false,
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "javascriptEnabled": true,
+      "phase": "second",
+      "lines": [
+        {
+          "text": "We shape spaces",
+          "clipped": false,
+          "opacity": "1"
+        },
+        {
+          "text": "built to last.",
+          "clipped": false,
+          "opacity": "1"
+        }
+      ]
+    }
+  ]
+}

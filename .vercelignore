@@ -1,0 +1,6 @@
+.tools/
+scripts/
+**/*.test.*
+public/media/ozone-hero.mp4
+public/hero-frames/
+assets/

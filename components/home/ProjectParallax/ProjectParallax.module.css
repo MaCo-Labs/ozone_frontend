@@ -1,0 +1,5 @@
+.frame { position: absolute; inset: 0; overflow: hidden; }
+.image { position: absolute; inset: -8% 0; will-change: transform; }
+.image img { object-fit: cover; filter: saturate(.78); transition: filter 300ms ease, scale 600ms cubic-bezier(.2,.7,.2,1); }
+.frame:hover img { filter: saturate(1); scale: 1.02; }
+@media (prefers-reduced-motion: reduce) { .image { inset: 0; } }
