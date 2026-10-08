@@ -10,3 +10,6 @@ coverage/
 next-env.d.ts
 *.log
 .DS_Store
+/AGENTS.md
+/DESIGN.md
+/docs/
