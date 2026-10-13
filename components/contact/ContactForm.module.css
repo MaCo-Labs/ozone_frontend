@@ -75,6 +75,12 @@
 .form .error { color: #a03224; font-size: .85rem; }
 .form button { transition: background 180ms ease, color 180ms ease; }
 .form button:active { transform: translateY(1px); }
+.projectForm { margin-top: 0; }
+.projectForm label { margin-bottom: 18px; }
+.projectForm input, .projectForm select, .projectForm textarea { border: 1px solid var(--line-dark); border-radius: 8px; padding: 10px 12px; background: var(--paper); font-size: max(16px, .8rem); }
+.projectForm .twoCol { gap: 12px; }
+.projectForm button { width: 100%; border-radius: 999px; }
+.projectForm p { font-size: .7rem; }
 .form label > span { font-size: .8rem; }
 .form p { font-size: .8rem; }
 

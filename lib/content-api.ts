@@ -12,6 +12,7 @@ export type StudioClient = {
 
 type PaginatedResponse<T> = {
   results: T[];
+  next?: string | null;
 };
 
 export type StudioProjectImage = {
@@ -21,16 +22,27 @@ export type StudioProjectImage = {
   is_cover: boolean;
   display_order: number;
   thumbnail_url?: string;
+  /** A display window within an approved company-profile composition. */
+  crop?: { left: number; top: number; width: number; height: number; aspect: number };
 };
 
-export type StudioProject = {
+export type StudioProjectSummary = {
   title: string;
   slug: string;
   sector: string;
+  short_description?: string;
+  featured?: boolean;
+  client?: StudioClient | null;
+  cover_image_url: string | null;
+};
+
+export type StudioProject = StudioProjectSummary & {
   location: string;
   service: string;
   description: string;
-  cover_image_url: string | null;
+  completion_year?: number | null;
+  meta_title?: string;
+  meta_description?: string;
   images: StudioProjectImage[];
 };
 
@@ -59,3 +71,16 @@ export const getStudioClients = cache(async (): Promise<StudioClient[] | null> =
 export const getStudioProject = cache((slug: string): Promise<StudioProject | null> =>
   getJson<StudioProject>(`/projects/${encodeURIComponent(slug)}/`),
 );
+
+/** Only published Django projects appear in the archive and selected work. */
+export const getStudioProjects = cache(async (): Promise<StudioProjectSummary[] | null> => {
+  const projects: StudioProjectSummary[] = [];
+  let offset = 0;
+  while (true) {
+    const page = await getJson<PaginatedResponse<StudioProjectSummary>>(`/projects/?limit=100&offset=${offset}`);
+    if (!page) return null;
+    projects.push(...page.results);
+    if (!page.next || !page.results.length) return projects;
+    offset += page.results.length;
+  }
+});

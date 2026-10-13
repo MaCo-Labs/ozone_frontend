@@ -135,10 +135,10 @@ const routes = ['/', '/about', '/services', '/services/interior-fit-out', '/serv
   assert.ok(await page.locator('article').evaluateAll((articles) => articles.every((article) => getComputedStyle(article).opacity === '1')), 'Changing a sector filter must leave all project cards visible');
 
   await page.goto(base + '/contact', { waitUntil: 'networkidle' });
-  await page.getByRole('button', { name: 'Open navigation', exact: true }).click();
+  await page.getByRole('button', { name: 'Open menu', exact: true }).click();
   await page.getByRole('dialog', { name: 'Primary navigation' }).waitFor({ state: 'visible' });
   await page.keyboard.press('Escape');
-  assert.equal(await page.getByRole('button', { name: 'Open navigation', exact: true }).getAttribute('aria-expanded'), 'false');
+  assert.equal(await page.getByRole('button', { name: 'Open menu', exact: true }).getAttribute('aria-expanded'), 'false');
 
   const form = page.locator('form');
   await form.getByRole('button', { name: /Continue on WhatsApp/ }).click();

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { buildWhatsAppEnquiry } from "@/lib/whatsapp";
 import styles from "./ContactForm.module.css";
 
-export function ContactForm() {
+export function ContactForm({ projectName }: { projectName?: string } = {}) {
   const [error, setError] = useState("");
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -25,7 +25,7 @@ export function ContactForm() {
   }
 
   return (
-    <form className={styles.form} onSubmit={handleSubmit}>
+    <form className={`${styles.form} ${projectName ? styles.projectForm : ""}`} onSubmit={handleSubmit}>
       <div className={styles.twoCol}>
         <label>
           <span>Name</span>
@@ -59,7 +59,7 @@ export function ContactForm() {
       </label>
       <label>
         <span>Project brief</span>
-        <textarea name="message" rows={5} maxLength={2000} placeholder="Location, scope, programme, and anything already decided." required />
+        <textarea name="message" rows={5} maxLength={2000} placeholder="Location, scope, programme, and anything already decided." defaultValue={projectName ? `I'd like to discuss a project similar to ${projectName}.\n\n` : undefined} required />
       </label>
       <p>WhatsApp opens with your enquiry addressed to OZONE at +974 3330 7095. Review the message and tap Send. <Link href="/privacy">Privacy information</Link></p>
       {error && <p role="alert" className={styles.error}>{error}</p>}

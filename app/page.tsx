@@ -5,14 +5,13 @@ import Link from "next/link";
 import { DeliveryJourney } from "@/components/home/DeliveryJourney/DeliveryJourney";
 import { SelectedWorkShowcase } from "@/components/home/SelectedWork/SelectedWorkShowcase";
 import { Hero } from "@/components/hero/Hero";
-import { getStudioClients, getStudioProject, type StudioClient } from "@/lib/content-api";
-import { CLIENTS, IMAGES, PROJECTS, SERVICES } from "@/lib/siteData";
-import { FEATURED_PROJECT_LINKS, FEATURED_PROJECT_SLUGS, projectImages } from "@/lib/projectMedia";
+import { getStudioClients, getStudioProjects, type StudioClient } from "@/lib/content-api";
+import { CLIENTS, IMAGES, SERVICES } from "@/lib/siteData";
+import { portfolioCards } from "@/lib/portfolio";
 import styles from "./home.module.css";
 
 export const metadata = pageMetadata("/");
 
-const featuredProjects = PROJECTS.slice(0, 3);
 const serviceLinks: Record<string, string> = {
   "interior-fit-out": "/services/interior-fit-out",
   "contracting-construction": "/services/contracting-construction",
@@ -38,7 +37,7 @@ function ClientSequence({ clients, hidden = false }: { clients: readonly Display
 
 export default async function HomePage() {
   const [studioClients, studioProjects] = await Promise.all([
-    getStudioClients(), Promise.all(FEATURED_PROJECT_SLUGS.map((slug) => getStudioProject(slug))),
+    getStudioClients(), getStudioProjects(),
   ]);
   const clients: DisplayClient[] = studioClients ?? CLIENTS.map((name) => ({ name, logo_url: null }));
   const homepageClients = clients
@@ -57,18 +56,12 @@ export default async function HomePage() {
 
         <section id="the-work" className={styles.work} aria-labelledby="work-title">
           <header className={styles.workHeading}>
-            <span className={styles.sectionCode}>01 / SELECTED WORK</span>
-            <h2 id="work-title">Proof, not promises.</h2>
+            <span className={styles.sectionCode}>Selected work</span>
+            <h2 id="work-title">Spaces that speak for us.</h2>
             <p>Selected delivery across transit, healthcare, and corporate environments in Qatar.</p>
           </header>
 
-          <SelectedWorkShowcase projects={featuredProjects.map((project, index) => ({
-            name: studioProjects[index]?.title ?? project.name,
-            sector: project.sector,
-            location: studioProjects[index]?.location || "Doha, Qatar",
-            href: FEATURED_PROJECT_LINKS[index],
-            images: projectImages(studioProjects[index], index),
-          }))} />
+          <SelectedWorkShowcase projects={portfolioCards(studioProjects).filter((project) => project.featured)} />
 
           <Link href="/projects" className={styles.textLink}>Explore the project archive <span aria-hidden="true">↗</span></Link>
         </section>

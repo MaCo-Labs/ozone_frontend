@@ -1,0 +1,45 @@
+.mosaic { display: grid; grid-template-columns: minmax(0, 2.5fr) minmax(0, 1fr); grid-template-rows: repeat(3, 1fr); gap: 12px; height: clamp(380px, 42vw, 620px); }
+.mosaic button { position: relative; display: block; min-height: 0; padding: 0; border: 0; border-radius: 12px; overflow: hidden; background: var(--concrete); cursor: pointer; }
+.mosaic img { object-fit: cover; transition: transform 380ms cubic-bezier(.16,1,.3,1); }
+.mosaic button:hover img { transform: scale(1.025); }
+.main { grid-row: 1 / -1; }
+.mosaic[data-count="1"] { grid-template-columns: 1fr; }
+.mosaic[data-count="2"] { grid-template-rows: 1fr; }
+.mosaic[data-count="3"] { grid-template-rows: repeat(2, 1fr); }
+.expand { position: absolute; right: 20px; bottom: 20px; display: flex; align-items: center; gap: 10px; padding: 12px 18px; border: 1px solid rgba(255,255,255,.35); border-radius: 999px; color: var(--ink); background: rgba(251,250,246,.94); font-size: .75rem; font-weight: 600; }
+.expand svg { width: 18px; height: 18px; }
+.more { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; white-space: pre; color: var(--paper); background: rgba(10,18,18,.52); font-size: 1.4rem; font-weight: 600; }
+.more svg { width: 24px; height: 24px; }
+.empty { display: grid; place-items: center; min-height: 320px; border-radius: 12px; background: var(--concrete); color: var(--steel); }
+.dialog { width: min(1440px, 96vw); max-width: none; height: 94dvh; max-height: none; padding: 0; border: 1px solid var(--line-light); border-radius: 16px; color: var(--paper); background: var(--ink); }
+.dialog::backdrop { background: rgba(5,12,12,.86); }
+.viewer { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; height: 100%; padding: 16px 24px; }
+.viewer header { display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: .85rem; padding-bottom: 12px; }
+.viewer button { display: grid; place-items: center; flex-shrink: 0; width: 48px; height: 48px; padding: 0; border: 1px solid var(--line-light); border-radius: 50%; background: transparent; color: var(--paper); cursor: pointer; transition: background 160ms ease, transform 100ms ease; }
+.viewer button:hover { background: var(--ink-soft); }
+.viewer button:active { transform: scale(.94); }
+.viewer button:disabled { opacity: .3; }
+.viewer svg { width: 22px; height: 22px; }
+.fullImage { position: relative; }
+.fullImage img { object-fit: contain; }
+.viewer footer { display: flex; align-items: center; justify-content: center; gap: 24px; padding-top: 16px; }
+.viewer footer div { text-align: center; font-size: .78rem; }
+.viewer footer p { margin: 4px 0 0; max-width: 55ch; color: var(--concrete); }
+:global(body):has(.dialog[open]) { overflow: hidden; }
+@media (max-width: 767px) {
+  .mosaic { height: auto; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: auto auto; gap: 8px; }
+  .main { grid-column: 1 / -1; grid-row: 1; aspect-ratio: 4 / 3; }
+  .preview { aspect-ratio: 4 / 3; }
+  .mosaic[data-count="2"], .mosaic[data-count="3"] { grid-template-rows: auto auto; }
+  .mosaic[data-count="3"] { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .mosaic[data-count="2"] .preview { display: none; }
+  .expand { right: 12px; bottom: 12px; padding: 10px 14px; }
+  .more { font-size: .9rem; }
+  .photoWord { display: none; }
+  .dialog { width: 100%; height: 100dvh; border: 0; border-radius: 0; }
+  .viewer { padding: 16px max(16px, env(safe-area-inset-right)) max(20px, env(safe-area-inset-bottom)); }
+  .viewer footer { gap: 16px; }
+}
+@media (prefers-reduced-motion: reduce) { .mosaic img, .viewer button { transition: none; } .mosaic button:hover img { transform: none; } }
+@media (prefers-reduced-motion: no-preference) { .fullImage { animation: revealPhoto 180ms ease-out; } }
+@keyframes revealPhoto { from { opacity: .5; } to { opacity: 1; } }

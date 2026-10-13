@@ -1,6 +1,9 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { breadcrumbSchema, pageMetadata, PAGE_SEO, serializeJsonLd, SITE_URL, type SitePath } from "./seo";
 import sitemap from "../app/sitemap";
+import { getStudioProjects } from "./content-api";
+
+vi.mock("./content-api", () => ({ getStudioProjects: vi.fn().mockResolvedValue([]) }));
 
 describe("search metadata", () => {
   it("gives every public route its own canonical and matching share URL", () => {
@@ -11,9 +14,14 @@ describe("search metadata", () => {
       expect(metadata.description?.length).toBeGreaterThan(60);
     }
   });
-  it("includes every published route without fabricated modification times", () => {
-    expect(sitemap().map((item) => item.url)).toEqual(Object.keys(PAGE_SEO).map((path) => SITE_URL + path));
-    expect(sitemap().every((item) => item.lastModified === undefined)).toBe(true);
+  it("includes every published route without fabricated modification times", async () => {
+    const entries = await sitemap();
+    expect(entries.map((item) => item.url)).toEqual(Object.keys(PAGE_SEO).filter((path) => !path.startsWith("/projects/")).map((path) => SITE_URL + path));
+    expect(entries.every((item) => item.lastModified === undefined)).toBe(true);
+  });
+  it("includes newly published project routes in the sitemap", async () => {
+    vi.mocked(getStudioProjects).mockResolvedValueOnce([{ title: "New project", slug: "new-project", sector: "Corporate", cover_image_url: null }]);
+    expect((await sitemap()).map((item) => item.url)).toContain(`${SITE_URL}/projects/new-project`);
   });
   it("builds the complete route hierarchy for nested service pages", () => {
     const items = breadcrumbSchema("/services/mep").itemListElement;

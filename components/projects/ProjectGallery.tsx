@@ -1,65 +1,37 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import Image from "next/image";
-import { ProjectCarousel } from "@/components/home/ProjectCarousel/ProjectCarousel";
-import type { StudioProjectImage } from "@/lib/content-api";
-import { PROJECTS } from "@/lib/siteData";
-import { FEATURED_PROJECT_LINKS, projectImages } from "@/lib/projectMedia";
 import Link from "next/link";
+import { useId, useState } from "react";
+import { ArrowTopRightIcon, MagnifyingGlassIcon } from "@radix-ui/react-icons";
+import type { PortfolioCard } from "@/lib/portfolio";
+import { PortfolioImage } from "./PortfolioImage";
 import styles from "./ProjectGallery.module.css";
 
-const FILTERS = ["All", "Retail", "F&B", "Corporate", "Healthcare", "Transit", "Wellness"] as const;
-const toId = (name: string) => name.toLowerCase().replaceAll(" ", "-");
-
-export function ProjectGallery({ galleries = [] }: { galleries?: StudioProjectImage[][] }) {
-  const [filter, setFilter] = useState<(typeof FILTERS)[number]>("All");
-  const projects = useMemo(
-    () => PROJECTS.filter((project) => filter === "All" || project.sector.includes(filter)),
-    [filter],
-  );
-
-  return (
-    <section className={styles.gallery} aria-labelledby="project-archive-title">
-      <div className={styles.heading}>
-        <div>
-          <span>Project archive</span>
-          <h2 id="project-archive-title">Work across Qatar</h2>
-        </div>
-        <div className={styles.filters} aria-label="Filter projects">
-          {FILTERS.map((item) => (
-            <button key={item} type="button" onClick={() => setFilter(item)} aria-pressed={filter === item}>
-              {item}
-            </button>
-          ))}
-        </div>
+export function ProjectGallery({ projects }: { projects: PortfolioCard[] }) {
+  const [filter, setFilter] = useState("All");
+  const [query, setQuery] = useState("");
+  const gridId = useId();
+  const sectors = [...new Set(projects.map((project) => project.sector))];
+  const search = query.trim().toLocaleLowerCase();
+  const visible = projects.filter((project) => (filter === "All" || project.sector === filter) && `${project.title} ${project.sector} ${project.client?.name ?? ""}`.toLocaleLowerCase().includes(search));
+  return <section className={styles.gallery} aria-label="Project archive">
+    <div className={styles.toolbar}>
+      <div className={styles.filters} role="group" aria-label="Filter projects by sector">
+        {["All", ...sectors].map((sector) => <button key={sector} type="button" aria-pressed={filter === sector} aria-controls={gridId} onClick={() => setFilter(sector)}>{sector}</button>)}
       </div>
-      <p className={styles.note}>
-        Project names are drawn from the OZONE company profile. Sector reference imagery is used where final approved photography is not yet in the web asset library.
-      </p>
-      <div className={styles.grid}>
-        {projects.map((project, index) => (
-          <article
-            key={project.name}
-            id={toId(project.name)}
-            className={styles.project}
-          >
-            <div className={styles.image}>
-              {PROJECTS.indexOf(project) < 3 ? (
-                <ProjectCarousel images={galleries[PROJECTS.indexOf(project)] ?? projectImages(null, PROJECTS.indexOf(project))} title={project.name} />
-              ) : <>
-                <Image src={project.image} alt={`Representative ${project.sector.toLowerCase()} space`} fill sizes="(max-width: 700px) 100vw, 50vw" />
-                <span>{project.source === "brochure" ? "OZONE portfolio" : "Sector reference"}</span>
-              </>}
-            </div>
-            <div className={styles.meta}>
-              <span>{String(index + 1).padStart(2, "0")}</span>
-              <h3>{PROJECTS.indexOf(project) < 3 ? <Link href={FEATURED_PROJECT_LINKS[PROJECTS.indexOf(project)]}>{project.name}</Link> : project.name}</h3>
-              <p>{project.sector}</p>
-            </div>
-          </article>
-        ))}
-      </div>
-    </section>
-  );
+      <label className={styles.search}><MagnifyingGlassIcon aria-hidden="true" /><span className={styles.srOnly}>Search projects</span><input type="search" placeholder="Search projects" value={query} onChange={(event) => setQuery(event.target.value)} /></label>
+    </div>
+    <p className={styles.count} role="status">{visible.length} {visible.length === 1 ? "project" : "projects"}{filter !== "All" ? ` in ${filter}` : " across Qatar"}</p>
+    <div id={gridId} className={styles.grid}>
+        {visible.map((project) => <article key={project.slug} className={styles.card}>
+          <Link href={project.href} className={styles.link}>
+            <div className={styles.image}><PortfolioImage image={project.cover} sizes="(max-width: 767px) 100vw, 50vw" /><span className={styles.open}><ArrowTopRightIcon aria-hidden="true" /></span></div>
+            <div className={styles.heading}><h2>{project.title}</h2><span>{project.sector}</span></div>
+            {project.short_description && <p className={styles.description}>{project.short_description}</p>}
+            {project.reference && <span className={styles.reference}>Sector reference imagery</span>}
+          </Link>
+        </article>)}
+    </div>
+    {!visible.length && <div className={styles.empty}><h2>{projects.length ? "No matching projects." : "Our next chapter is taking shape."}</h2><p>{projects.length ? "Try another sector or a different project name." : "Published projects will appear here."}</p>{projects.length > 0 && <button type="button" onClick={() => { setFilter("All"); setQuery(""); }}>Clear filters</button>}</div>}
+  </section>;
 }

@@ -112,10 +112,11 @@ export function Header() {
           <Image
             src="/brand/ozone-logo.png"
             alt="OZONE Fitout & Contracting W.L.L."
-            width={190}
-            height={70}
+            width={853}
+            height={316}
+            sizes="(max-width: 700px) 148px, 180px"
             className={styles.logo}
-            priority
+            preload
           />
         </Link>
 
@@ -132,7 +133,7 @@ export function Header() {
             ref={menuButtonRef}
             type="button"
             className={styles.menuButton}
-            aria-label={open ? "Close navigation" : "Open navigation"}
+            aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
             aria-controls="primary-navigation"
             onClick={() => (open ? closeMenu(false) : setOpen(true))}
