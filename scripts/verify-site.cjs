@@ -7,6 +7,7 @@ const path = require('node:path');
 
 const base = process.env.QA_BASE_URL || 'http://127.0.0.1:3001';
 const output = process.env.QA_OUTPUT_DIR || path.resolve('../docs/qa-2026-10-08');
+const layoutOnly = process.env.OZONE_QA_SCOPE === 'layout';
 const routes = ['/', '/about', '/services', '/services/interior-fit-out', '/services/contracting-construction', '/services/mep', '/services/engineering', '/projects', '/projects/qatar-rail', '/projects/maestro', '/projects/apparel-group', '/clients', '/process', '/quality-safety', '/sectors', '/insights', '/contact', '/privacy'];
 
 (async () => {
@@ -65,7 +66,7 @@ const routes = ['/', '/about', '/services', '/services/interior-fit-out', '/serv
         if (route === '/') {
           const style = 'body > header, .skipLink { visibility: hidden !important; }';
           await page.locator('#the-work').scrollIntoViewIfNeeded();
-          await page.locator('#the-work [data-image-ready="true"] img').waitFor({ state: 'visible', timeout: 30000 });
+          await page.locator('#the-work [data-active="true"] img').first().waitFor({ state: 'visible', timeout: 30000 });
           await page.locator('#the-work').screenshot({ path: path.join(output, `${width}-selected-work.png`), style });
           await page.locator('footer').screenshot({ path: path.join(output, `${width}-footer.png`) });
           await page.locator('section[aria-labelledby="clients-title"]').screenshot({ path: path.join(output, `${width}-brands.png`), style });
@@ -76,6 +77,14 @@ const routes = ['/', '/about', '/services', '/services/interior-fit-out', '/serv
     }
     console.log(`Checked ${routes.length} pages at ${width}px`);
     await writeFile(path.join(output, 'viewport-report.json'), JSON.stringify({ checks, failures, errors }, null, 2));
+  }
+
+  if (layoutOnly) {
+    assert.equal(failures.length, 0, JSON.stringify(failures));
+    assert.equal(errors.length, 0, JSON.stringify(errors));
+    console.log(JSON.stringify({ pages: routes.length, widths: [320, 390, 768, 1440], failures, errors }));
+    await browser.close();
+    return;
   }
 
   await page.setViewportSize({ width: 390, height: 844 });

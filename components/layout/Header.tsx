@@ -78,7 +78,9 @@ export function Header() {
       }
       if (event.key !== "Tab" || !panel) return;
 
-      const focusable = Array.from(panel.querySelectorAll<HTMLElement>("a[href], button:not([disabled])"));
+      const header = menuButtonRef.current?.closest("header");
+      const focusable = Array.from(header?.querySelectorAll<HTMLElement>("a[href], button:not([disabled])") ?? [])
+        .filter((element) => element.getClientRects().length > 0);
       if (!focusable.length) return;
       const first = focusable[0];
       const last = focusable.at(-1);

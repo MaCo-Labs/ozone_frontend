@@ -1,7 +1,7 @@
 .home { background: var(--mineral); }
 .sectionCode { color: var(--teal-dark); font-size: .64rem; font-weight: 700; letter-spacing: .16em; }
-.opening { position: relative; background: var(--ink); }
-.heroSticky { position: sticky; top: 0; height: 100svh; }
+.opening { position: relative; overflow: clip; isolation: isolate; background: var(--ink); }
+.heroSticky { position: sticky; top: 0; height: max(720px, 100svh); }
 .work { position: relative; z-index: 2; margin-top: 1px; padding: clamp(56px, 6vw, 88px) var(--page-pad); background: var(--mineral); }
 .workHeading, .work > .textLink, .clientHeading, .capabilities > *, .standard, .contactCopy { max-width: var(--content-max); margin-inline: auto; }
 .workHeading { display: flex; flex-direction: column; align-items: center; gap: 18px; text-align: center; margin-bottom: clamp(32px, 4vw, 56px); }
@@ -58,6 +58,9 @@
 .contactCopy .sectionCode { color: var(--teal); }
 .contactCopy h2 { max-width: 24ch; margin-top: 24px; }
 .contactCopy a { width: max-content; margin-top: 44px; padding: 14px 18px; background: var(--teal); color: var(--ink); font-size: .74rem; font-weight: 700; text-decoration: none; }
+@media (max-width: 760px) {
+  .heroSticky { height: 100svh; }
+}
 @media (max-width: 900px) {
   .workHeading, .clientHeading, .capabilityHeading { grid-template-columns: 1fr; }
   .workHeading p { margin-top: 10px; }

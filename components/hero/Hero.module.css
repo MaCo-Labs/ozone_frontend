@@ -1,6 +1,7 @@
 .hero {
   position: relative;
-  min-height: max(720px, 100dvh);
+  height: 100%;
+  min-height: 100%;
   overflow: hidden;
   background: var(--ink);
   color: var(--mineral);
@@ -127,10 +128,6 @@
 }
 
 @media (max-width: 760px) {
-  .hero {
-    min-height: 100dvh;
-  }
-
   .videoMedia { object-position: 62% center; }
 
   .scrim {

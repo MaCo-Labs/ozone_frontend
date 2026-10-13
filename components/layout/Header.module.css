@@ -39,7 +39,7 @@
 }
 
 .logoLink {
-  flex: 0 0 auto;
+  flex: 0 1 auto;
   display: block;
   line-height: 0;
 }
@@ -57,16 +57,16 @@
   align-items: center;
 }
 
-.actions { gap: clamp(22px, 3vw, 48px); }
+.actions { gap: clamp(22px, 3vw, 48px); flex-shrink: 0; }
 .shortcuts { gap: clamp(20px, 2.3vw, 38px); }
 
 .shortcuts a {
   position: relative;
   display: inline-flex;
   align-items: center;
-  min-height: 44px;
+  min-height: 48px;
   color: var(--nav-ink);
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.035em;
   text-decoration: none;
@@ -112,7 +112,7 @@
   padding: 0;
   cursor: pointer;
   min-height: 48px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.05em;
 }
@@ -148,7 +148,10 @@
   position: fixed;
   inset: 0;
   z-index: 1;
-  padding: calc(var(--header-height) + 66px) var(--page-pad) 42px;
+  padding: calc(var(--header-height) + 40px) var(--page-pad) 32px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scroll-padding-block: calc(var(--header-height) + 24px) 24px;
   background: #0c1313;
   color: var(--mineral);
   visibility: hidden;
@@ -170,18 +173,18 @@
 
 .menuFrame {
   width: min(100%, var(--content-max));
-  height: 100%;
+  min-height: 100%;
   margin-inline: auto;
   display: grid;
   grid-template-columns: minmax(0, 1.45fr) minmax(260px, 0.55fr);
   gap: clamp(60px, 8vw, 140px);
-  align-items: end;
+  align-items: center;
 }
 
 .menuDirectory > p {
-  margin: 0 0 clamp(24px, 4vh, 44px);
+  margin: 0 0 24px;
   color: var(--teal);
-  font-size: 0.67rem;
+  font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.12em;
 }
@@ -189,19 +192,21 @@
 .menuNav {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: clamp(5px, 1vh, 13px);
+  align-items: stretch;
+  gap: 8px;
 }
 
 .menuLink {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  min-height: 56px;
   gap: 20px;
-  color: rgba(241, 240, 235, 0.48);
+  color: var(--concrete);
   font-family: var(--font-display), sans-serif;
-  font-size: var(--type-row);
+  font-size: clamp(2.5rem, 4.2vw, 4.5rem);
   font-weight: 600;
-  line-height: var(--heading-leading);
+  line-height: 1.1;
   letter-spacing: var(--heading-tracking);
   text-decoration: none;
   opacity: 0;
@@ -219,6 +224,7 @@
 }
 
 .menuLink i {
+  flex-shrink: 0;
   width: 34px;
   height: 2px;
   background: var(--teal);
@@ -242,7 +248,7 @@
 }
 
 .menuAside {
-  align-self: stretch;
+  align-self: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -311,10 +317,10 @@
   padding-top: 20px;
   border-top: 1px solid var(--line-light);
   color: var(--concrete);
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
-.menuMeta a { text-decoration: none; }
+.menuMeta a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; overflow-wrap: anywhere; }
 .menuMeta a:hover,
 .menuMeta a:focus-visible { color: var(--teal); }
 
@@ -322,7 +328,7 @@
   .shortcuts { display: none; }
   .actions { gap: 0; }
   .menuFrame { grid-template-columns: minmax(0, 1.25fr) minmax(220px, 0.75fr); gap: 42px; }
-  .menuLink { font-size: var(--type-row); }
+  .menuLink { font-size: clamp(2rem, 4.2vw, 3rem); }
 }
 
 @media (max-width: 700px) {
@@ -339,28 +345,32 @@
   .menuGlyph { width: 46px; height: 46px; }
 
   .menuPanel {
-    padding: calc(var(--header-height) + 38px) 20px 26px;
-    overflow-y: auto;
+    padding: calc(var(--header-height) + 28px) 20px max(20px, env(safe-area-inset-bottom));
   }
 
   .menuFrame {
-    height: auto;
     min-height: 100%;
     grid-template-columns: 1fr;
-    gap: 32px;
-    align-content: end;
+    gap: 24px;
+    align-content: center;
   }
 
-  .menuDirectory > p { margin-bottom: 22px; }
+  .menuDirectory > p { margin: 0 14px 18px; }
   .menuNav { gap: 8px; }
-  .menuLink { font-size: var(--type-row); }
+  .menuLink {
+    min-height: 56px;
+    padding: 8px 14px;
+    border-bottom: 1px solid var(--line-light);
+    font-size: clamp(1.65rem, calc(0.6rem + 5.5vw), 2.5rem);
+  }
+  .menuLink span { overflow-wrap: anywhere; }
   .menuLink i { width: 24px; }
 
   .menuAside {
     align-self: auto;
     border-top: 1px solid var(--line-light);
     border-left: 0;
-    padding: 20px 0 0;
+    padding: 16px 14px 0;
   }
 
   .featuredProject { display: none; }
@@ -371,15 +381,13 @@
   .rail { gap: 12px; }
   .logo { width: min(148px, 44vw); }
   .menuGlyph { flex-shrink: 0; }
-  .menuButton > span:first-child { font-size: 0.64rem; }
-  .menuLink { font-size: var(--type-row); }
 }
 
 @media (max-height: 720px) and (min-width: 701px) {
   .menuPanel { padding-top: calc(var(--header-height) + 34px); padding-bottom: 28px; }
   .menuDirectory > p { margin-bottom: 20px; }
   .menuNav { gap: 4px; }
-  .menuLink { font-size: var(--type-row); }
+  .menuLink { font-size: clamp(2rem, 3.6vw, 3rem); }
   .featuredImage { aspect-ratio: 16 / 9; }
   .featuredLabel { margin-top: 14px; }
   .menuMeta { margin-top: 22px; }
