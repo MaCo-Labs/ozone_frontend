@@ -39,7 +39,6 @@ export function ProjectGallery({ projects }: { projects: PortfolioCard[] }) {
             <div className={styles.image}><PortfolioImage image={project.cover} sizes="(max-width: 767px) 31vw, (max-width: 1200px) 46vw, 560px" /><span className={styles.open}><ArrowTopRightIcon aria-hidden="true" /></span></div>
             <div className={styles.heading}><h2>{project.title}</h2><span>{project.sector}</span></div>
             {project.short_description && <p className={styles.description}>{project.short_description}</p>}
-            {project.reference && <span className={styles.reference}>Sector reference imagery</span>}
           </Link>
         </article>)}
     </div>

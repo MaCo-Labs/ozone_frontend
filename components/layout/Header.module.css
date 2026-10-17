@@ -12,6 +12,7 @@
 }
 
 .rail {
+  --fill-origin-x: calc(100% - 37px);
   position: relative;
   z-index: 2;
   width: min(100%, 1180px);
@@ -42,25 +43,24 @@
   inset: 0;
   border-radius: inherit;
   background: var(--nav-teal);
-  transform: scaleX(0);
-  transform-origin: right center;
+  clip-path: circle(0% at var(--fill-origin-x) 50%);
   pointer-events: none;
-  transition: transform 580ms cubic-bezier(0.16, 1, 0.3, 1);
+  transition: clip-path 580ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .rail > * { position: relative; }
 
-/* Start the color at the menu button and let it flow back into glass on exit. */
+/* Reveal a full-size pill; the final circle disappears beneath the menu button. */
 .rail:has(:focus-visible)::before,
-.header[data-open="true"] .rail::before { transform: scaleX(1); }
+.header[data-open="true"] .rail::before { clip-path: circle(150% at var(--fill-origin-x) 50%); }
 
 @media (hover: hover) and (pointer: fine) {
-  .rail:hover::before { transform: scaleX(1); }
+  .rail:hover::before { clip-path: circle(150% at var(--fill-origin-x) 50%); }
 }
 
 @media (hover: none) {
   .rail:active { transform: scale(.988); }
-  .rail:active::before { transform: scaleX(1); }
+  .rail:active::before { clip-path: circle(150% at var(--fill-origin-x) 50%); }
 }
 
 .header[data-solid="true"] .rail {
@@ -367,6 +367,7 @@
   .header { --header-height: calc(76px + env(safe-area-inset-top)); padding: max(10px, env(safe-area-inset-top)) 12px 0; }
 
   .rail {
+    --fill-origin-x: calc(100% - 32px);
     height: 64px;
     padding: 7px 8px 7px 20px;
     border-radius: 999px;

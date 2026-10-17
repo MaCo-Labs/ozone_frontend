@@ -10,7 +10,7 @@ type PageHeroProps = {
   caption?: string;
 };
 
-export function PageHero({ index, title, intro, image, imageAlt, caption = "Sector reference imagery" }: PageHeroProps) {
+export function PageHero({ index, title, intro, image, imageAlt, caption }: PageHeroProps) {
   return (
     <section className={styles.hero}>
       <div className={styles.copy}>
@@ -20,7 +20,7 @@ export function PageHero({ index, title, intro, image, imageAlt, caption = "Sect
       </div>
       <div className={styles.media}>
         <Image src={image} alt={imageAlt} fill sizes="(max-width: 800px) 100vw, 52vw" className={styles.image} priority />
-        <span className={styles.caption}>{caption}</span>
+        {caption && <span className={styles.caption}>{caption}</span>}
       </div>
     </section>
   );

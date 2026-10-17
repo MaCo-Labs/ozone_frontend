@@ -35,7 +35,7 @@ export function portfolioCards(published: StudioProjectSummary[] | null): Portfo
     slug: FEATURED_PROJECT_SLUGS[index] ?? projectSlug(project.name),
     sector: project.sector,
     branch: "qatar" as const,
-    short_description: index < 3 ? "From the OZONE company portfolio." : "Project listed in the OZONE company profile.",
+    short_description: "",
     featured: index < 3,
     cover_image_url: index < 3 ? null : project.image,
   }));

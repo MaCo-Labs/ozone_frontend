@@ -31,7 +31,7 @@ export default async function Page() {
         <div className={editorial.heroCopy}>
           <span className={editorial.eyebrow}>Clients</span>
           <h1>Trust built over time.</h1>
-          <p>Selected organisations and places documented in the OZONE company profile.</p>
+          <p>Working with organisations across transit, healthcare, retail, hospitality, and commercial spaces.</p>
         </div>
       </section>
 

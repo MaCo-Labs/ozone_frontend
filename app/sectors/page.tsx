@@ -25,7 +25,7 @@ export default function SectorsPage() {
               <span className={styles.sectionCode}>{String(index + 1).padStart(2, "0")} / SECTOR</span>
               <h2>{sector.title}</h2>
               <p>{sector.summary}</p>
-              <p className={styles.references}>Profile references: {sector.references.join(" · ")}</p>
+              <p className={styles.references}>{sector.references.join(" · ")}</p>
             </div>
             <div className={styles.sectorMedia}>
               <Image src={sector.image} alt={`Representative ${sector.title.toLowerCase()} environment`} fill sizes="(max-width: 760px) 100vw, 62vw" />

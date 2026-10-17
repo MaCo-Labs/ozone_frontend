@@ -19,7 +19,7 @@ export function projectImages(project: StudioProject | null | undefined, index: 
   return [{
     image_url: project?.cover_image_url || fallback.image,
     alt_text: `${fallback.name} — OZONE project portfolio`,
-    caption: project?.location || "OZONE company profile · Doha, Qatar",
+    caption: project?.location || "",
     is_cover: true,
     display_order: 0,
   }];

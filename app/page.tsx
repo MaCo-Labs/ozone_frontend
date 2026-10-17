@@ -95,7 +95,6 @@ export default async function HomePage() {
           </ul>
           <Link href="/clients" className={styles.mobileClientLink}>View all clients <span aria-hidden="true">↗</span></Link>
         </div>
-        <p className={styles.clientNote}>Selected client marks shown in the OZONE company profile.</p>
       </section>
 
       <section className={styles.capabilities} aria-labelledby="capabilities-title">

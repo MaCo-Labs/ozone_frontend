@@ -21,9 +21,9 @@ async function response(endpoint) {
   const result = await fetch(api + endpoint);
   return result.ok ? result.json() : null;
 }
-for (const [slug, fallback] of [["qatar-rail", "qatar-rail"], ["maestro", "maestro-medical-centre"], ["apparel-group", "apparel-head-office"]]) {
+for (const [slug, fallback, title] of [["qatar-rail", "qatar-rail", "Qatar Rail"], ["maestro", "maestro-medical-centre", "Maestro Medical Centre"], ["apparel-group", "apparel-head-office", "Apparel Group Head Office"]]) {
   const project = await response(`/projects/${slug}/`);
-  const sources = project?.images?.length ? project.images : [{ image_url: `/brochure/${fallback}.jpg`, alt_text: "OZONE company profile project composition", caption: "OZONE company profile · Doha, Qatar", is_cover: true, display_order: 0 }];
+  const sources = project?.images?.length ? project.images : [{ image_url: `/brochure/${fallback}.jpg`, alt_text: `${title} interior photographs`, caption: "", is_cover: true, display_order: 0 }];
   content.projects[slug] = [];
   for (const [index, image] of sources.entries()) {
     const source = image.image_url.startsWith("/") ? path.join(root, "public", image.image_url) : localMedia(image.image_url);

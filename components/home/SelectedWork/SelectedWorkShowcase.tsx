@@ -9,7 +9,7 @@ import type { PortfolioCard } from "@/lib/portfolio";
 import { PortfolioImage } from "@/components/projects/PortfolioImage";
 import styles from "./SelectedWorkShowcase.module.css";
 
-const HOLD_MS = 5000;
+const ADVANCE_INTERVAL_MS = 5000;
 
 export function SelectedWorkShowcase({ projects }: { projects: PortfolioCard[] }) {
   const reduce = useReducedMotion();
@@ -44,7 +44,7 @@ export function SelectedWorkShowcase({ projects }: { projects: PortfolioCard[] }
         if (region.contains(document.activeElement)) return;
         if (api.canScrollNext()) api.scrollNext();
         else api.scrollTo(0);
-      }, HOLD_MS);
+      }, ADVANCE_INTERVAL_MS);
     };
     const onEnter = (event: PointerEvent) => { if (event.pointerType === "mouse") { hovering = true; clear(); } };
     const onLeave = () => { hovering = false; schedule(); };
@@ -57,7 +57,8 @@ export function SelectedWorkShowcase({ projects }: { projects: PortfolioCard[] }
     region.addEventListener("focusin", clear);
     region.addEventListener("focusout", schedule);
     document.addEventListener("visibilitychange", schedule);
-    api.on("pointerDown", onDown).on("pointerUp", onUp).on("settle", schedule).on("reInit", schedule);
+    // Count from the start of each move, not Embla's long physics-settling tail.
+    api.on("pointerDown", onDown).on("pointerUp", onUp).on("select", schedule).on("reInit", schedule);
     return () => {
       clear(); observer.disconnect();
       region.removeEventListener("pointerenter", onEnter);
@@ -65,7 +66,7 @@ export function SelectedWorkShowcase({ projects }: { projects: PortfolioCard[] }
       region.removeEventListener("focusin", clear);
       region.removeEventListener("focusout", schedule);
       document.removeEventListener("visibilitychange", schedule);
-      api.off("pointerDown", onDown).off("pointerUp", onUp).off("settle", schedule).off("reInit", schedule);
+      api.off("pointerDown", onDown).off("pointerUp", onUp).off("select", schedule).off("reInit", schedule);
     };
   }, [api, reduce, paused, projects.length]);
 

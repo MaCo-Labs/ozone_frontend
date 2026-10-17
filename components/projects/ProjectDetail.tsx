@@ -29,7 +29,6 @@ export async function ProjectDetail({ slug }: { slug: string }) {
     <div className={styles.shell}>
       <Link href="/projects" className={styles.back}><ArrowLeftIcon aria-hidden="true" /> All projects</Link>
       <ProjectDetailGallery images={images} title={project.title} />
-      {card?.reference && <p className={styles.reference}>Sector reference imagery. This project is listed in the OZONE company profile.</p>}
       <div className={styles.content}>
         <article className={styles.overview}>
           <p className={styles.sector}>{project.sector}</p>
