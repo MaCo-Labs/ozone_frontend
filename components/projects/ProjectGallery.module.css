@@ -1,4 +1,11 @@
 .gallery { position: relative; z-index: 2; width: min(100% - 2 * var(--page-pad), 1200px); margin: -64px auto 0; padding-bottom: 88px; }
+.branchBar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; padding: 22px 26px; margin-bottom: 12px; border-radius: 18px; background: var(--paper); border: 1px solid var(--line-dark); }
+.branchLabel { color: var(--steel); font-size: .8rem; }
+.branchSwitch { display: flex; gap: 4px; padding: 4px; border: 1px solid var(--line-dark); border-radius: 999px; background: var(--mineral); }
+.branchSwitch button { min-width: 112px; min-height: 44px; padding: 10px 22px; border: 0; border-radius: 999px; background: transparent; color: var(--steel); font-size: .85rem; font-weight: 600; cursor: pointer; transition: background 220ms ease, color 220ms ease, box-shadow 220ms ease; }
+.branchSwitch button[aria-pressed="true"] { background: var(--ink); color: var(--paper); box-shadow: 0 2px 6px rgba(7, 20, 20, .12); }
+.branchSwitch button:hover:not([aria-pressed="true"]) { color: var(--ink); background: var(--concrete); }
+.branchSwitch button:focus-visible, .filters button:focus-visible { outline: 2px solid var(--teal-dark); outline-offset: 3px; }
 .toolbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; padding: 18px; border: 1px solid var(--line-dark); border-radius: 16px; background: var(--paper); }
 .filters { display: flex; flex-wrap: wrap; gap: 8px; }
 .filters button { min-height: 44px; padding: 10px 16px; border: 1px solid transparent; border-radius: 999px; background: transparent; color: var(--steel); cursor: pointer; font-size: .76rem; transition: background 180ms ease, color 180ms ease, transform 100ms ease; }
@@ -33,9 +40,27 @@
 .empty button { min-height: 44px; border: 1px solid var(--ink); border-radius: 999px; padding: 10px 20px; background: var(--ink); color: var(--paper); font-size: .8rem; cursor: pointer; }
 .srOnly { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 @media (max-width: 1000px) { .toolbar { align-items: stretch; } .search { max-width: none; flex-basis: 100%; } .heading { flex-direction: column; gap: 8px; } }
-@media (max-width: 767px) { .grid { grid-template-columns: 1fr; gap: 20px; } .gallery { margin-top: -48px; padding-bottom: 48px; } .card { padding: 10px; } .toolbar { padding: 12px; gap: 12px; } .filters { gap: 4px; } .filters button { padding-inline: 12px; } .heading { flex-direction: row; gap: 12px; padding-top: 18px; } .heading h2 { font-size: 1.2rem; } .heading > span { font-size: .65rem; } }
-@media (max-width: 390px) { .heading { flex-direction: column; gap: 6px; } }
+@media (max-width: 767px) {
+  .gallery { margin-top: -48px; padding-bottom: 48px; }
+  .branchBar { justify-content: center; padding: 18px 12px; gap: 12px; }
+  .branchLabel { width: 100%; text-align: center; }
+  .branchSwitch { width: min(100%, 320px); }
+  .branchSwitch button { flex: 1; min-width: 0; }
+  .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px 8px; }
+  .card { min-width: 0; padding: 0; border: 0; border-radius: 0; background: transparent; }
+  .image { aspect-ratio: 1; border-radius: 8px; }
+  .toolbar { padding: 12px; gap: 12px; }
+  .filters { gap: 4px; }
+  .filters button { padding-inline: 12px; }
+  .heading { display: block; padding: 10px 1px 0; }
+  .heading h2 { font-size: clamp(.75rem, 2.7vw, 1rem); line-height: 1.3; overflow-wrap: normal; word-break: normal; hyphens: auto; }
+  .heading > span { display: block; margin-top: 5px; font-size: .65rem; white-space: normal; }
+  .description { display: none; }
+  .reference { padding: 6px 1px 0; font-size: .6rem; line-height: 1.4; }
+  .open svg { width: 36px; height: 36px; padding: 9px; }
+}
 @media (prefers-reduced-motion: reduce) { .image img, .open, .open svg, .filters button { transition: none; } .link:hover img, .link:focus-visible img { transform: none; } }
 @media (prefers-reduced-motion: reduce) { .image > span:first-child { transition: none; } .link:hover .image > span:first-child, .link:focus-visible .image > span:first-child { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .branchSwitch button { transition: none; } }
 @media (prefers-reduced-motion: no-preference) { .card { animation: appear 200ms ease-out; } }
 @keyframes appear { from { opacity: .5; } to { opacity: 1; } }

@@ -2,6 +2,7 @@ import "server-only";
 
 import { cache } from "react";
 import previewContent from "./previewContent.json";
+import type { ProjectBranch } from "./projectBranch";
 
 export type StudioClient = {
   name: string;
@@ -30,6 +31,7 @@ export type StudioProjectSummary = {
   title: string;
   slug: string;
   sector: string;
+  branch?: ProjectBranch;
   short_description?: string;
   featured?: boolean;
   client?: StudioClient | null;

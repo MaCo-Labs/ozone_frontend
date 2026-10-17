@@ -21,6 +21,12 @@ describe("dynamic portfolio", () => {
   it("preserves an intentionally empty published archive", () => {
     expect(portfolioCards([])).toEqual([]);
   });
+  it("preserves Bahrain assignments and defaults legacy and preview projects to Qatar", () => {
+    expect(portfolioCards([{ ...project, branch: "bahrain" }])[0].branch).toBe("bahrain");
+    expect(portfolioCards([project])[0].branch).toBe("qatar");
+    expect(portfolioCards(null).every((card) => card.branch === "qatar")).toBe(true);
+    expect(fallbackProject(portfolioCards([{ ...project, branch: "bahrain" }])[0]).location).toBe("");
+  });
   it("retains complete fallback galleries and one cover per homepage project", () => {
     const cards = portfolioCards(null).filter((card) => card.featured);
     expect(cards).toHaveLength(3);

@@ -6,6 +6,8 @@ import { MotionObserver } from "@/components/ui/MotionObserver";
 import { StructuredData } from "@/components/ui/StructuredData";
 import { organizationSchema, SITE_URL, SITE_NAME, PAGE_SEO, SOCIAL_IMAGE } from "@/lib/seo";
 import "./globals.css";
+import { getStudioProjects } from "@/lib/content-api";
+import { portfolioCards } from "@/lib/portfolio";
 
 const SITE_DESCRIPTION = PAGE_SEO["/"].description;
 
@@ -32,14 +34,16 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const projects = portfolioCards(await getStudioProjects());
+  const featured = projects.filter((project) => project.featured);
   return (
     <html lang="en" className={`${display.variable} ${plexSans.variable}`}>
       <body>
         <a className="skipLink" href="#main-content">
           Skip to content
         </a>
-        <Header />
+        <Header projects={(featured.length ? featured : projects).slice(0, 5)} />
         <StructuredData data={organizationSchema} />
         <MotionObserver />
         {children}

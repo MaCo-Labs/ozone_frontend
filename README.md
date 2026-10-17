@@ -13,7 +13,9 @@ Open http://localhost:3000. Run `npm run lint`, `npm run test`, and `npm run bui
 
 Import `MaCo-Labs/ozone_frontend` into Vercel. Select Next.js, use the repository root, and keep the standard install and build commands. Set `OZONE_PREVIEW_MODE=true` for the client preview. No backend, database or secret is required. The packaged project photos, brochure previews and client logos populate the image positions.
 
-Selected work shows one main photograph per project in a draggable carousel with arrows, project selectors and keyboard controls. Project details use a photo grid and an expanded gallery; the archive supports sector filters and search. Phone layouts include stacked content, touch controls and enlarged-text support. Reduced motion disables optional transitions. The hero uses a 357 KB mobile video or a 1.1 MB desktop video and a static poster for reduced motion or data saver.
+Selected work shows compact, near-square project photographs with titles inside each image. The carousel advances one project every five seconds once visible, pauses on hover/focus/drag or a hidden tab, and supports swiping and arrow keys. A keyboard-accessible pause control appears on focus; Escape stops rotation. Reduced motion disables automatic rotation. Project details use a photo grid and an expanded gallery. The archive supports Qatar/Bahrain branch switching, sector filters, and search, with three project columns on phones.
+
+The hero uses a 540×720 portrait mobile video (1.34 MB) or a 1.1 MB desktop video. Playback pauses off-screen and in hidden tabs; reduced motion, data saver, and 2G connections use a static poster. Regenerate mobile media from the master with `node scripts/prepare-hero-video.mjs` (requires FFmpeg on PATH or `FFMPEG_PATH`).
 
 ## Connect the content service
 

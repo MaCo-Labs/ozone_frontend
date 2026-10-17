@@ -1,8 +1,10 @@
 import type { StudioProject, StudioProjectImage, StudioProjectSummary } from "./content-api";
 import { FEATURED_PROJECT_SLUGS, projectImages } from "./projectMedia";
 import { PROJECTS } from "./siteData";
+import { projectBranch, type ProjectBranch } from "./projectBranch";
 
 export type PortfolioCard = StudioProjectSummary & {
+  branch: ProjectBranch;
   href: string;
   cover: StudioProjectImage | null;
   reference: boolean;
@@ -32,6 +34,7 @@ export function portfolioCards(published: StudioProjectSummary[] | null): Portfo
     title: project.name,
     slug: FEATURED_PROJECT_SLUGS[index] ?? projectSlug(project.name),
     sector: project.sector,
+    branch: "qatar" as const,
     short_description: index < 3 ? "From the OZONE company portfolio." : "Project listed in the OZONE company profile.",
     featured: index < 3,
     cover_image_url: index < 3 ? null : project.image,
@@ -49,11 +52,11 @@ export function portfolioCards(published: StudioProjectSummary[] | null): Portfo
         ? { left: .049, top: .608, width: .416, height: .359, aspect: 1446 / 1915 }
         : { left: .534, top: .017, width: .419, height: .377, aspect: 1446 / 1915 },
     } : cover;
-    return { ...project, href: `/projects/${encodeURIComponent(project.slug)}`, cover: croppedCover, reference: published === null && index === -1 };
+    return { ...project, branch: projectBranch(project.branch), href: `/projects/${encodeURIComponent(project.slug)}`, cover: croppedCover, reference: published === null && index === -1 };
   });
 }
 
 export function fallbackProject(card: PortfolioCard): StudioProject {
   const index = FEATURED_PROJECT_SLUGS.findIndex((slug) => slug === card.slug);
-  return { ...card, location: "Doha, Qatar", service: "", description: card.short_description ?? "", images: index === -1 ? (card.cover ? [card.cover] : []) : projectImages(null, index) };
+  return { ...card, location: card.branch === "qatar" ? "Doha, Qatar" : "", service: "", description: card.short_description ?? "", images: index === -1 ? (card.cover ? [card.cover] : []) : projectImages(null, index) };
 }

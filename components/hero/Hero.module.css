@@ -16,6 +16,7 @@
 }
 
 .videoMedia {
+  position: relative;
   display: block;
   width: 100%;
   height: 100%;
@@ -128,7 +129,7 @@
 }
 
 @media (max-width: 760px) {
-  .videoMedia { object-position: 62% center; }
+  .videoMedia { object-position: center; }
 
   .scrim {
     background:

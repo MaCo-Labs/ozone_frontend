@@ -58,7 +58,7 @@ export default async function HomePage() {
           <header className={styles.workHeading}>
             <span className={styles.sectionCode}>Selected work</span>
             <h2 id="work-title">Spaces that speak for us.</h2>
-            <p>Selected delivery across transit, healthcare, and corporate environments in Qatar.</p>
+            <p>Selected delivery across transit, healthcare, and corporate environments in Qatar and Bahrain.</p>
           </header>
 
           <SelectedWorkShowcase projects={portfolioCards(studioProjects).filter((project) => project.featured)} />

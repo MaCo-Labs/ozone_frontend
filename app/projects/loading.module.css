@@ -3,6 +3,6 @@
 .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
 .grid div { aspect-ratio: 4 / 3; background: var(--concrete); border-radius: 16px; }
 .loading p { font-size: .8rem; color: var(--steel); margin-top: 20px; }
-@media (max-width: 767px) { .grid { grid-template-columns: 1fr; } .loading { padding-top: 120px; } }
+@media (max-width: 767px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; } .grid div { aspect-ratio: 1; border-radius: 8px; } .loading { padding-top: 120px; } }
 @media (prefers-reduced-motion: no-preference) { .title, .grid div { animation: pulse 1.5s ease-in-out infinite alternate; } }
 @keyframes pulse { to { opacity: .5; } }

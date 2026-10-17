@@ -5,6 +5,8 @@ import { useMotionValueEvent, useReducedMotion, useScroll } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import type { PortfolioCard } from "@/lib/portfolio";
+import { PortfolioImage } from "@/components/projects/PortfolioImage";
 import styles from "./Header.module.css";
 
 const MENU_ITEMS = [
@@ -21,15 +23,7 @@ const SHORTCUTS = MENU_ITEMS.filter(({ href }) =>
   ["/projects", "/services", "/contact"].includes(href),
 );
 
-const FEATURED_PROJECTS = [
-  { name: "Qatar Rail", label: "Featured transit", href: "/projects/qatar-rail", image: "/brochure/qatar-rail.jpg" },
-  { name: "Maestro Medical Centre", label: "Featured healthcare", href: "/projects/maestro", image: "/brochure/maestro-medical-centre.jpg" },
-  { name: "Apparel Group Head Office", label: "Featured workplace", href: "/projects/apparel-group", image: "/brochure/apparel-head-office.jpg" },
-  { name: "360 Play - Mall of Qatar", label: "Featured leisure", href: "/projects#360-play---mall-of-qatar", image: "/reference/photo-1555529669-e69e7aa0ba9a.webp" },
-  { name: "Tim Hortons", label: "Featured hospitality", href: "/projects#tim-hortons", image: "/reference/photo-1517248135467-4c7edcad34c4.webp" },
-] as const;
-
-export function Header() {
+export function Header({ projects }: { projects: PortfolioCard[] }) {
   const pathname = usePathname();
   const reducedMotion = useReducedMotion();
   const [scrolled, setScrolled] = useState(false);
@@ -45,9 +39,9 @@ export function Header() {
   };
 
   const handleLogoClick = (event: MouseEvent<HTMLAnchorElement>) => {
+    setOpen(false);
     if (pathname !== "/") return;
     event.preventDefault();
-    setOpen(false);
     window.history.replaceState(null, "", "/");
     window.scrollTo({ top: 0, behavior: "auto" });
   };
@@ -98,17 +92,18 @@ export function Header() {
   }, [open]);
 
   useEffect(() => {
-    if (!open || reducedMotion) return;
+    if (!open || reducedMotion || projects.length < 2) return;
     const timer = window.setInterval(() => {
-      setFeaturedIndex((current) => (current + 1) % FEATURED_PROJECTS.length);
+      setFeaturedIndex((current) => (current + 1) % projects.length);
     }, 6200);
     return () => window.clearInterval(timer);
-  }, [open, reducedMotion]);
+  }, [open, reducedMotion, projects.length]);
 
-  const featuredProject = FEATURED_PROJECTS[featuredIndex];
+  const featuredProject = projects[featuredIndex % projects.length];
 
   return (
-    <header className={styles.header} data-solid={pathname !== "/" || scrolled || open} data-open={open}>
+    <header className={styles.header} data-solid={pathname !== "/" || scrolled || open} data-open={open}
+      role={open ? "dialog" : undefined} aria-modal={open || undefined} aria-label={open ? "Primary navigation" : undefined}>
       <div className={styles.rail}>
         <Link href="/" className={styles.logoLink} aria-label="OZONE home" onClick={handleLogoClick}>
           <Image
@@ -116,7 +111,7 @@ export function Header() {
             alt="OZONE Fitout & Contracting W.L.L."
             width={853}
             height={316}
-            sizes="(max-width: 700px) 148px, 180px"
+            sizes="(max-width: 700px) 132px, 160px"
             className={styles.logo}
             preload
           />
@@ -125,7 +120,7 @@ export function Header() {
         <div className={styles.actions}>
           <nav className={styles.shortcuts} aria-label="Quick navigation">
             {SHORTCUTS.map((item) => (
-              <Link key={item.href} href={item.href} aria-current={pathname === item.href ? "page" : undefined}>
+              <Link key={item.href} href={item.href} aria-current={pathname.startsWith(item.href) ? "page" : undefined} onClick={() => closeMenu(false)}>
                 {item.label}
               </Link>
             ))}
@@ -154,9 +149,6 @@ export function Header() {
         id="primary-navigation"
         className={styles.menuPanel}
         data-open={open}
-        role="dialog"
-        aria-modal="true"
-        aria-label="Primary navigation"
         aria-hidden={!open}
         inert={!open}
       >
@@ -181,21 +173,15 @@ export function Header() {
           </div>
 
           <aside className={styles.menuAside}>
-            <Link href={featuredProject.href} className={styles.featuredProject} onClick={() => closeMenu(false)}>
+            {featuredProject && <Link href={featuredProject.href} className={styles.featuredProject} onClick={() => closeMenu(false)}>
               <span className={styles.featuredImage}>
-                <Image
-                  key={featuredProject.image}
-                  src={featuredProject.image}
-                  alt={featuredProject.name}
-                  fill
-                  sizes="(max-width: 760px) 100vw, 34vw"
-                />
+                <PortfolioImage key={featuredProject.slug} image={featuredProject.cover} sizes="(max-width: 760px) 100vw, 34vw" />
               </span>
-              <span className={styles.featuredLabel}>{featuredProject.label}</span>
-              <strong>{featuredProject.name}</strong>
-            </Link>
+              <span className={styles.featuredLabel}>Featured {featuredProject.sector}</span>
+              <strong>{featuredProject.title}</strong>
+            </Link>}
             <div className={styles.menuMeta}>
-              <span>Doha, Qatar</span>
+              <span>Qatar / Bahrain</span>
               <a href="mailto:info@ozonefitout.com">info@ozonefitout.com</a>
             </div>
           </aside>
